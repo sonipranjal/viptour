@@ -1,0 +1,2116 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="">
+    <meta name="author" content="">
+    <meta name="description" content="Malaysia, Thailand, Dubai, Singapore tour land packages. DARJEELING-GANGTOK, SHIMLA-MANALI, NAINITAL, KERALA, and much more travel packages at best price. " />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/css/swiper.min.css'>
+    <link rel="stylesheet" href="./style.css">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.core.min.css">
+
+
+    <title>
+
+        Tour Packages at Best Price - VIP TOUR
+
+    </title>
+
+
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link href='https://fonts.googleapis.com/css?family=Lora:400,400italic|Work+Sans:300,400,500,600' rel='stylesheet' type='text/css'>
+    <link href="css/toolkit-startup.css" rel="stylesheet">
+    <link href="css/application-startup.css" rel="stylesheet">
+
+
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Poppins');
+
+        body {
+
+            font-family: 'Poppins', sans-serif;
+        }
+
+        #special:hover {
+
+            color: #fff;
+
+        }
+
+        canvas {
+
+            cursor: crosshair;
+            display: block;
+            background: url('img/diwalifinal.jpg') no-repeat center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center center;
+            background-attachment: fixed;
+
+        }
+
+        @media only screen and (max-width: 767px) {
+            canvas {
+                background-image: url(img/mobilediwali);
+                cursor: crosshair;
+            display: block;
+            background-repeat: no-repeat;
+            background-size: cover;
+                
+            background-position: center center;
+            background-attachment: fixed;
+            }
+        }
+
+
+
+        .box {
+            position: relative;
+            width: 300px;
+            height: 400px;
+            margin: 60px auto 20px auto;
+            background: #000;
+            box-shadow: 0 30px 30px rgba(0, 0, 0, .5);
+        }
+
+        .box .imgBx {
+            position: relative;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        .box .imgBx img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: 0.5s;
+        }
+
+        .box:hover .imgBx img {
+            opacity: 0;
+        }
+
+        .box .content {
+            position: absolute;
+            bottom: 20px;
+            left: 10%;
+            width: 80%;
+            height: 75px;
+            background: #fff;
+            transition: 0.5s;
+            overflow: hidden;
+
+            padding: 15px;
+            box-sizing: border-box;
+        }
+
+        .box:hover .content {
+            width: 100%;
+            height: 100%;
+            bottom: 0;
+            left: 0;
+        }
+
+        .box .content h3 {
+            margin: 0;
+            padding: 0;
+            font-size: 20px;
+        }
+
+        .box .content p {
+            margin: 10px 0 0;
+            padding: 0;
+            opacity: 0;
+            line-height: 1.2em;
+            transition: 0.5s;
+            text-align: justify;
+        }
+
+        .box:hover .content p {
+            opacity: 1;
+            transition-delay: 0.5s;
+        }
+
+        .box:hover .content p {
+            opacity: 1;
+            transition-delay: 0.5s;
+        }
+
+
+
+        .carousel-item {
+            height: 100vh;
+            min-height: 350px;
+            background: no-repeat center center scroll;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+        }
+
+        @media only screen and (max-width: 620px) {
+
+            .carousel-item {
+
+                height: 60vh;
+                min-height: 350px;
+                width: 100%;
+
+            }
+
+        }
+
+
+
+
+        @font-face {
+            font-family: 'Genericons';
+            src: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/53819/genericons-regular-webfont.eot");
+            src: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/53819/genericons-regular-webfont.woff") format("woff"), url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/53819/genericons-regular-webfont.eot") format("truetype");
+        }
+
+        .social-container {
+            position: relative;
+            display: inline-block;
+            width: 164px;
+            height: 36px;
+            perspective: 300px;
+            font-size: 24px;
+            margin: 8px;
+        }
+
+        .social-container .social-cube {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            transform-style: preserve-3d;
+            transition: all 0.333s;
+            transform: translateZ(-18px);
+        }
+
+        .social-container .social-cube .front,
+        .social-container .social-cube .bottom {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+            transition: background 0.333s;
+        }
+
+        .social-container .social-cube .front {
+            transform: rotateX(0deg) translateZ(18px);
+        }
+
+        .social-container .social-cube .bottom {
+            transform: rotateX(-90deg) translateZ(18px);
+        }
+
+        .social-container:hover .social-cube {
+            transform: translateZ(-18px) rotateX(90deg);
+        }
+
+        .social-container.twitter .social-cube .front,
+        .social-container.twitter .social-cube .back {
+            background: #4099ff;
+        }
+
+        .social-container.twitter .social-cube .bottom {
+            background: #0d7eff;
+        }
+
+        .social-container.twitter:hover .social-cube .bottom {
+            background: #4099ff;
+        }
+
+        .social-container.twitter:hover .social-cube .front {
+            background: #73b4ff;
+        }
+
+        .social-container.facebook .social-cube .front,
+        .social-container.facebook .social-cube .back {
+            background: #3b5998;
+        }
+
+        .social-container.facebook .social-cube .bottom {
+            background: #2d4373;
+        }
+
+        .social-container.facebook:hover .social-cube .bottom {
+            background: #3b5998;
+        }
+
+        .social-container.facebook:hover .social-cube .front {
+            background: #4c70ba;
+        }
+
+        .social-container.youtube .social-cube .front,
+        .social-container.youtube .social-cube .back {
+            background: #D62976;
+        }
+
+        .social-container.youtube .social-cube .bottom {
+            background: #D62976;
+        }
+
+        .social-container.youtube:hover .social-cube .bottom {
+            background: #D62976;
+        }
+
+        .social-container.youtube:hover .social-cube .front {
+            background: #D62976;
+        }
+
+
+
+
+
+        .details {
+
+            text-align: center;
+            display: inline-block;
+            font-size: 150%;
+            font-weight: bold;
+            color: #fff;
+
+        }
+
+        .details:hover {
+
+            color: white;
+            font-weight: bold;
+            text-decoration-color: white;
+
+        }
+
+
+
+
+
+        .services-section .container {
+            z-index: 2;
+            position: relative;
+        }
+
+        .services {
+            background: #fff;
+            -webkit-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.03);
+            -moz-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.03);
+            box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.03);
+            padding: 25px;
+            -moz-transition: all 0.3s ease;
+            -o-transition: all 0.3s ease;
+            -webkit-transition: all 0.3s ease;
+            -ms-transition: all 0.3s ease;
+            transition: all 0.3s ease;
+            -webkit-border-radius: 2px;
+            -moz-border-radius: 2px;
+            -ms-border-radius: 2px;
+            border-radius: 2px;
+        }
+
+        .services .icon {
+            line-height: 1.3;
+            position: relative;
+        }
+
+        .services .icon span {
+            font-size: 60px;
+            color: #f85959;
+        }
+
+        .services .media-body h3 {
+            font-size: 20px;
+        }
+
+        .services:hover {
+            background: #f85959;
+            color: #fff;
+        }
+
+        .services:hover .icon span {
+            color: #fff;
+        }
+
+        .services:hover h3 {
+            color: #fff;
+        }
+
+        .list-services {
+            margin-top: 40px;
+            padding: 0;
+        }
+
+        .list-services li {
+            font-size: 18px;
+            list-style: none;
+        }
+
+        .list-services li a {
+            color: #000000;
+        }
+
+        .ftco-section .ftco-sub-title {
+            font-size: 16px;
+            text-transform: uppercase;
+            letter-spacing: .5em;
+            color: #d4d4d4;
+            font-family: "Work Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+            font-weight: 300;
+        }
+
+        .ftco-section .ftco-primary-title {
+            margin-top: 0;
+            margin-bottom: 30px;
+        }
+
+        .media-custom {
+            background: #fff;
+        }
+
+        .media-custom .media-body .name {
+            font-weight: 500;
+            font-size: 16px;
+            margin-bottom: 0;
+            color: #f85959;
+        }
+
+        .media-custom .media-body .position {
+            font-size: 13px;
+            color: #d9d9d9;
+        }
+
+        .about-author .desc h3 {
+            font-size: 24px;
+        }
+
+        .ftco-section {
+            padding: 6em 0;
+            position: relative;
+        }
+
+        @media (max-width: 767.98px) {
+            .ftco-section {
+                padding: 6em 0;
+            }
+        }
+
+        @media (min-width: 768px) {
+            .ftco-section .container-fluid {
+                padding: 0 4em;
+            }
+        }
+
+        .testimony-section {
+            position: relative;
+        }
+
+        .testimony-section .owl-carousel {
+            margin: 0;
+        }
+
+        .testimony-section .owl-carousel .owl-stage-outer {
+            padding-bottom: 2em;
+            position: relative;
+        }
+
+        .testimony-wrap {
+            -webkit-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.03);
+            -moz-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.03);
+            box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.03);
+            background: #fff;
+            display: block;
+            position: relative;
+            padding: 30px;
+        }
+
+        .testimony-wrap .text {
+            width: calc(100% - 100px);
+        }
+
+        .testimony-wrap .user-img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            position: relative;
+        }
+
+        .testimony-wrap .user-img .quote {
+            position: absolute;
+            bottom: -10px;
+            right: 0;
+            width: 40px;
+            height: 40px;
+            background: #f85959;
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+            -ms-border-radius: 50%;
+            border-radius: 50%;
+        }
+
+        .testimony-wrap .user-img .quote i {
+            color: #fff;
+        }
+
+        .testimony-wrap .name {
+            font-weight: 500;
+            font-size: 16px;
+            margin-bottom: 0;
+            color: #000000;
+        }
+
+        .testimony-wrap .position {
+            font-size: 13px;
+        }
+
+
+
+        .testimony-section {
+            position: relative;
+        }
+
+        .testimony-section .owl-carousel {
+            margin: 0;
+        }
+
+        .testimony-section .owl-carousel .owl-stage-outer {
+            padding-bottom: 2em;
+            position: relative;
+        }
+
+
+
+        .ftco-section {
+            position: relative;
+            width: 100%;
+            display: block;
+        }
+
+        .ftco-section .nav-pills p {
+            margin-bottom: 0;
+        }
+
+        .ftco-section .nav-pills .nav-link {
+            border-radius: 0;
+            margin-bottom: 0;
+            font-size: 18px;
+            font-weight: 400;
+            position: relative;
+            display: inline-block;
+            margin-left: 5px;
+            margin-right: 5px;
+            color: #b3b3b3;
+            -webkit-border-radius: 30px;
+            -moz-border-radius: 30px;
+            -ms-border-radius: 30px;
+            border-radius: 30px;
+        }
+
+        .ftco-section .nav-pills .nav-link:hover {
+            color: #000000;
+        }
+
+        .ftco-section .nav-pills .nav-link.active {
+            color: #fff;
+            -moz-transition: all 0.3s ease;
+            -o-transition: all 0.3s ease;
+            -webkit-transition: all 0.3s ease;
+            -ms-transition: all 0.3s ease;
+            transition: all 0.3s ease;
+        }
+
+        .ftco-section .nav-pills .nav-link.active:after {
+            opacity: 1;
+        }
+
+        @media (max-width: 767.98px) {
+            .ftco-section .nav-pills .nav-link.active:after {
+                opacity: 0;
+            }
+        }
+
+        @media (max-width: 767.98px) {
+            .ftco-section .nav-pills .nav-link {
+                display: block;
+                width: 100%;
+                margin-bottom: 5px;
+            }
+        }
+
+        .ftco-section .tab-content .tab-pane h2 {
+            font-size: 24px;
+        }
+
+        .ftco-section .tab-content .tab-pane .one-forth {
+            width: 50%;
+        }
+
+        .ftco-section .tab-content .tab-pane .one-forth img {
+            -webkit-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.03);
+            -moz-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.03);
+            box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.03);
+        }
+
+        @media (max-width: 767.98px) {
+            .ftco-section .tab-content .tab-pane .one-forth img {
+                margin-bottom: 20px;
+            }
+        }
+
+        @media (max-width: 767.98px) {
+            .ftco-section .tab-content .tab-pane .one-forth {
+                width: 100%;
+            }
+        }
+
+        .ftco-section .tab-content .tab-pane .one-half {
+            width: 50%;
+        }
+
+        @media (max-width: 767.98px) {
+            .ftco-section .tab-content .tab-pane .one-half {
+                width: 100%;
+            }
+        }
+
+        .heading-section .subheading {
+            font-size: 14px;
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        .heading-section h2 {
+            font-size: 30px;
+            font-weight: 300;
+        }
+
+        .heading-section h2 strong {
+            font-weight: 700;
+        }
+
+        @media (max-width: 767.98px) {
+            .heading-section h2 {
+                font-size: 28px;
+            }
+        }
+
+        .user-img {
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center center;
+        }
+
+        @import url("https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600,700,800");
+
+        * {
+            box-sizing: border-box;
+        }
+
+        .blog-slider {
+            width: 95%;
+            position: relative;
+            max-width: 800px;
+            margin: auto;
+            background: #fff;
+            box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+            padding: 25px;
+            border-radius: 25px;
+            height: 400px;
+            transition: all .3s;
+        }
+
+        @media screen and (max-width: 992px) {
+            .blog-slider {
+                max-width: 680px;
+                height: 400px;
+            }
+        }
+
+        @media screen and (max-width: 768px) {
+            .blog-slider {
+                min-height: 500px;
+                height: auto;
+                margin: 180px auto;
+            }
+        }
+
+        @media screen and (max-height: 500px) and (min-width: 992px) {
+            .blog-slider {
+                height: 350px;
+            }
+        }
+
+        .blog-slider__item {
+            display: flex;
+            align-items: center;
+        }
+
+        @media screen and (max-width: 768px) {
+            .blog-slider__item {
+                flex-direction: column;
+            }
+        }
+
+        .blog-slider__item.swiper-slide-active .blog-slider__img img {
+            opacity: 1;
+            transition-delay: .3s;
+        }
+
+        .blog-slider__item.swiper-slide-active .blog-slider__content>* {
+            opacity: 1;
+            transform: none;
+        }
+
+        .blog-slider__item.swiper-slide-active .blog-slider__content>*:nth-child(1) {
+            transition-delay: 0.3s;
+        }
+
+        .blog-slider__item.swiper-slide-active .blog-slider__content>*:nth-child(2) {
+            transition-delay: 0.4s;
+        }
+
+        .blog-slider__item.swiper-slide-active .blog-slider__content>*:nth-child(3) {
+            transition-delay: 0.5s;
+        }
+
+        .blog-slider__item.swiper-slide-active .blog-slider__content>*:nth-child(4) {
+            transition-delay: 0.6s;
+        }
+
+        .blog-slider__item.swiper-slide-active .blog-slider__content>*:nth-child(5) {
+            transition-delay: 0.7s;
+        }
+
+        .blog-slider__item.swiper-slide-active .blog-slider__content>*:nth-child(6) {
+            transition-delay: 0.8s;
+        }
+
+        .blog-slider__item.swiper-slide-active .blog-slider__content>*:nth-child(7) {
+            transition-delay: 0.9s;
+        }
+
+        .blog-slider__item.swiper-slide-active .blog-slider__content>*:nth-child(8) {
+            transition-delay: 1s;
+        }
+
+        .blog-slider__item.swiper-slide-active .blog-slider__content>*:nth-child(9) {
+            transition-delay: 1.1s;
+        }
+
+        .blog-slider__item.swiper-slide-active .blog-slider__content>*:nth-child(10) {
+            transition-delay: 1.2s;
+        }
+
+        .blog-slider__item.swiper-slide-active .blog-slider__content>*:nth-child(11) {
+            transition-delay: 1.3s;
+        }
+
+        .blog-slider__item.swiper-slide-active .blog-slider__content>*:nth-child(12) {
+            transition-delay: 1.4s;
+        }
+
+        .blog-slider__item.swiper-slide-active .blog-slider__content>*:nth-child(13) {
+            transition-delay: 1.5s;
+        }
+
+        .blog-slider__item.swiper-slide-active .blog-slider__content>*:nth-child(14) {
+            transition-delay: 1.6s;
+        }
+
+        .blog-slider__item.swiper-slide-active .blog-slider__content>*:nth-child(15) {
+            transition-delay: 1.7s;
+        }
+
+        .blog-slider__img {
+            width: 300px;
+            flex-shrink: 0;
+            height: 300px;
+            background-image: linear-gradient(147deg, #fe8a39 0%, #fd3838 74%);
+            border-radius: 20px;
+            transform: translateX(-80px);
+            overflow: hidden;
+        }
+
+        .blog-slider__img:after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border-radius: 20px;
+            opacity: 0.8;
+        }
+
+        .blog-slider__img img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+            opacity: 0;
+            border-radius: 20px;
+            transition: all .3s;
+        }
+
+        @media screen and (max-width: 768px) {
+            .blog-slider__img {
+                transform: translateY(-50%);
+                width: 90%;
+            }
+        }
+
+        @media screen and (max-width: 576px) {
+            .blog-slider__img {
+                width: 95%;
+            }
+        }
+
+        @media screen and (max-height: 500px) and (min-width: 992px) {
+            .blog-slider__img {
+                height: 270px;
+            }
+        }
+
+        .blog-slider__content {
+            padding-right: 25px;
+        }
+
+        @media screen and (max-width: 768px) {
+            .blog-slider__content {
+                margin-top: -80px;
+                text-align: center;
+                padding: 0 30px;
+            }
+        }
+
+        @media screen and (max-width: 576px) {
+            .blog-slider__content {
+                padding: 0;
+            }
+        }
+
+        .blog-slider__content>* {
+            opacity: 0;
+            transform: translateY(25px);
+            transition: all .4s;
+        }
+
+        .blog-slider__code {
+            color: #7b7992;
+            margin-bottom: 15px;
+            display: block;
+            font-weight: 500;
+        }
+
+        .blog-slider__title {
+            font-size: 24px;
+            font-weight: 700;
+            color: #0d0925;
+            margin-bottom: 20px;
+        }
+
+        .blog-slider__text {
+            color: #4e4a67;
+            margin-bottom: 30px;
+            line-height: 1.5em;
+        }
+
+        .blog-slider__button {
+            display: inline-flex;
+            background-image: linear-gradient(147deg, #fe8a39 0%, #fd3838 74%);
+            padding: 15px 35px;
+            border-radius: 50px;
+            color: #fff;
+            box-shadow: 0px 14px 80px rgba(252, 56, 56, 0.4);
+            text-decoration: none;
+            font-weight: 500;
+            justify-content: center;
+            text-align: center;
+            letter-spacing: 1px;
+        }
+
+        @media screen and (max-width: 576px) {
+            .blog-slider__button {
+                width: 100%;
+            }
+        }
+
+        .blog-slider .swiper-container-horizontal>.swiper-pagination-bullets,
+        .blog-slider .swiper-pagination-custom,
+        .blog-slider .swiper-pagination-fraction {
+            bottom: 10px;
+            left: 0;
+            width: 100%;
+        }
+
+        .blog-slider__pagination {
+            position: absolute;
+            z-index: 21;
+            right: 20px;
+            width: 11px !important;
+            text-align: center;
+            left: auto !important;
+            top: 50%;
+            bottom: auto !important;
+            transform: translateY(-50%);
+        }
+
+        @media screen and (max-width: 768px) {
+            .blog-slider__pagination {
+                transform: translateX(-50%);
+                left: 50% !important;
+                top: 205px;
+                width: 100% !important;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+
+        .blog-slider__pagination.swiper-pagination-bullets .swiper-pagination-bullet {
+            margin: 8px 0;
+        }
+
+        @media screen and (max-width: 768px) {
+            .blog-slider__pagination.swiper-pagination-bullets .swiper-pagination-bullet {
+                margin: 0 5px;
+            }
+        }
+
+        .blog-slider__pagination .swiper-pagination-bullet {
+            width: 11px;
+            height: 11px;
+            display: block;
+            border-radius: 10px;
+            background: #062744;
+            opacity: 0.2;
+            transition: all .3s;
+        }
+
+        .blog-slider__pagination .swiper-pagination-bullet-active {
+            opacity: 1;
+            background: #fd3838;
+            height: 30px;
+            box-shadow: 0px 0px 20px rgba(252, 56, 56, 0.3);
+        }
+
+        @media screen and (max-width: 768px) {
+            .blog-slider__pagination .swiper-pagination-bullet-active {
+                height: 11px;
+                width: 30px;
+            }
+        }
+
+        .imagepawan {
+            background-image: url('img/travel.jpg');
+
+        }
+
+        @media screen and (max-width: 767px) {
+            .imagepawan {
+                background-image: url('img/aeroplane.jpg');
+            }
+        }
+
+    </style>
+
+</head>
+
+
+
+
+
+<body>
+
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><strong>VIP TOUR</strong></a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+
+
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+
+
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">Contact</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <canvas id="canvas"> </canvas>
+
+    <div class="blog-slider">
+        <div class="blog-slider__wrp swiper-wrapper">
+            <div class="blog-slider__item swiper-slide">
+                <div class="blog-slider__img">
+
+                    <img src="img/dargiling.jpg" alt="">
+                </div>
+                <div class="blog-slider__content">
+                    <div class="blog-slider__title">Dargilling tour package</div>
+                    <div class="blog-slider__text">A colour lush green, This is Darjeeling. Visit Darjeeling once and you will have with you "a life time of memories", memories that you'll cherish forever. </div>
+                    <a href="darjeeling.html" class="blog-slider__button">KNOW MORE</a>
+                </div>
+            </div>
+            <div class="blog-slider__item swiper-slide">
+                <div class="blog-slider__img">
+                    <img src="img/shimla.jpg" alt="">
+                </div>
+                <div class="blog-slider__content">
+                    <div class="blog-slider__title">SHIMLA</div>
+                    <div class="blog-slider__text">The mountains are calling and you must go.</div>
+                    <a href="shimla.html" class="blog-slider__button">KNOW MORE</a>
+                </div>
+            </div>
+
+            <div class="blog-slider__item swiper-slide">
+                <div class="blog-slider__img">
+                    <img src="img/andman.jpg" alt="">
+                </div>
+                <div class="blog-slider__content">
+                    <div class="blog-slider__title">ANDMAN AND NICOBAR ISLANDS</div>
+                    <div class="blog-slider__text">You are to me like white islands, in a world of vast darkness.</div>
+                    <a href="andman.html" class="blog-slider__button">KNOW MORE</a>
+                </div>
+            </div>
+
+            <div class="blog-slider__item swiper-slide">
+                <div class="blog-slider__img">
+                    <img src="img/christoph-schulz-7tb-b37yHx4-unsplash.jpg" alt="">
+                </div>
+                <div class="blog-slider__content">
+                    <div class="blog-slider__title">DUBAI</div>
+                    <div class="blog-slider__text">Dubai will never settle for anything less than first place. </div>
+                    <a href="andman.html" class="blog-slider__button">KNOW MORE</a>
+                </div>
+            </div>
+
+
+            <div class="blog-slider__item swiper-slide">
+                <div class="blog-slider__img">
+                    <img src="img/meimei-ismail-JCsmBJPHW-s-unsplash.jpg" alt="">
+                </div>
+                <div class="blog-slider__content">
+                    <div class="blog-slider__title">MALAYSIA</div>
+                    <div class="blog-slider__text">Kualalumpur and Genting Highlands, Batu Cave, City Tour
+                        , Petronas Twin Towers
+                        , Handicraft Centre
+                        , King's Palace
+                        , National Monument
+                        , And many more. </div>
+                    <a href="andman.html" class="blog-slider__button">KNOW MORE</a>
+                </div>
+            </div>
+
+
+            <div class="blog-slider__item swiper-slide">
+                <div class="blog-slider__img">
+                    <img src="img/website2.jpg" alt="">
+                </div>
+                <div class="blog-slider__content">
+                    <div class="blog-slider__title">SINGAPORE</div>
+                    <div class="blog-slider__text">City Tour of Singapore with English Speaking Guide, Universal Studios Ticket with Return Transfer-SIC Basis Sentosa & S.E.A. Aquarium + Maritime Experiential Museum + Typhoon Theatre-SIC Basis, Night Safari Ticket with Return Transfer-SIC Basis and many mare. </div>
+                    <a href="andman.html" class="blog-slider__button">KNOW MORE</a>
+                </div>
+            </div>
+
+
+
+        </div>
+        <div class="blog-slider__pagination"></div>
+    </div>
+    <!-- partial -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/js/swiper.min.js'></script>
+
+
+    <section class="ftco-section services-section bg-light" style="margin-top: -120px;">
+        <div class="container">
+            <h2 class="text-xs-center" style="color: #F85959; text-transform: uppercase; margin-top: ;"> international and domestic travel packages at best price with vip tour.
+            </h2>
+            <div class="row d-flex">
+                <div class="col-md-3 d-flex align-self-stretch ftco-animate">
+                    <div class="media block-6 services d-block text-center">
+                        <div class="d-flex justify-content-center">
+                            <div class="icon"><span class="flaticon-guarantee"></span></div>
+                        </div>
+                        <div class="media-body p-2 mt-2">
+                            <h3 class="heading mb-3">Best Price Guarantee</h3>
+                            <p>"Price is what you pay. Value is what you get."- Warren Buffett</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 d-flex align-self-stretch ftco-animate">
+                    <div class="media block-6 services d-block text-center">
+                        <div class="d-flex justify-content-center">
+                            <div class="icon"><span class="flaticon-like"></span></div>
+                        </div>
+                        <div class="media-body p-2 mt-2">
+                            <h3 class="heading mb-3">Travellers Love Us</h3>
+                            <p>Let's find some beautiful place to get lost.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 d-flex align-self-stretch ftco-animate">
+                    <div class="media block-6 services d-block text-center">
+                        <div class="d-flex justify-content-center">
+                            <div class="icon"><span class="flaticon-detective"></span></div>
+                        </div>
+                        <div class="media-body p-2 mt-2">
+                            <h3 class="heading mb-3">Best Travel Agent</h3>
+                            <p>Always delivered more than expected.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 d-flex align-self-stretch ftco-animate">
+                    <div class="media block-6 services d-block text-center">
+                        <div class="d-flex justify-content-center">
+                            <div class="icon"><span class="flaticon-support"></span></div>
+                        </div>
+                        <div class="media-body p-2 mt-2">
+                            <h3 class="heading mb-3">Our Dedicated Support</h3>
+                            <p>We always ready for you to help, call us anytime at +919784207077.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <div class="block block-inverse app-high-praise imagepawan">
+        <div class="container" style="margin-right: 250px;">
+            <div class="row app-align-center py-3">
+                <div class="col-sm-5 push-sm-7 py-5" style="">
+                    <br>
+                    <h3 style="color:#324780;" class="mb-4">“As soon as I saw you, I knew a grand adventure was about to happen.”</h3>
+                    <p style="color: #324780; font-weight: bold;" class="mb-4 ">Pawan soni, founder of VIP TOUR</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <div class="block block-secondary app-block-marketing-grid">
+        <div class="container text-xs-center">
+            <div class="row mb-5">
+                <div class="col-xs-10 offset-xs-1 col-sm-8 offset-sm-2 col-lg-6 offset-lg-3">
+
+
+
+                    <h3 class="mb-4" style="font-size: 30px; color: black;"> International tour packages</h3>
+                    <br>
+                    <br>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="container text-xs-center" style="display: flex; flex-wrap: wrap;">
+
+            <div class="box">
+                <div class="imgBx">
+                    <img src="img/izuddin-helmi-adnan-1e71PSox7m8-unsplash.jpg">
+                </div>
+
+                <div class="content">
+                    <h3>MALAYSIA TOUR PACKAGE</h3>
+                    <br>
+                    4 DAYS / 3 NIGHTS<br>
+                    <li>Kualalumpur and Genting Highlands</li>
+                    <li>Batu Cave</li>
+                    <li>City Tour </li>
+                    <li>Petronas Twin Towers</li>
+                    <li>Handicraft Centre</li>
+                    <li>King's Palace </li>
+                    <li>National Monument </li>
+                    <li>And many more </li>
+
+                    Call Us For Booking at 9784207077
+                    <p></p>
+
+                    <a href="malaysia.html" class="details btn btn-info" title="Malaysia">
+                        <p style="padding-bottom: 10px;"> More details </p>
+                    </a>
+
+                </div>
+
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="img/WEBPAGE.jpg">
+                </div>
+                <div class="content">
+                    <h3>THAILAND TOUR PACKAGE</h3>
+                    <br>
+
+
+                    <p>
+                        <li>2 Nights Bangkok & 2 Nights Pattaya
+
+                            Or
+
+                            4 Nights Pattaya </li> <br>
+
+
+
+
+                        <li>3 star Hotel or similar
+
+                            **Guest Free**</li>
+
+                        <br>
+
+                        <li>Coral island</li>
+                        <li>Bkk city Tour</li>
+                        <li>Alkzar show and many more. . .</li>
+
+                        Call Us For Booking at 9784207077
+
+
+
+                        <br>
+                    </p>
+
+                    <a href="thailand.html" class="details btn btn-info">
+                        <p style="padding-bottom: 10px;" title="thailand"> More details </p>
+                    </a>
+
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="img/zhu-hongzhi-AfIjECE9JT0-unsplash.jpg">
+                </div>
+                <div class="content">
+                    <h3>SINGAPORE TOUR PACKAGE</h3>
+                    <br>
+
+
+
+                    <li>City Tour of Singapore with English Speaking Guide-SIC Basis</li>
+                    <li>Universal Studios Ticket with Return Transfer-SIC Basis</li>
+                    <li>Sentosa & S.E.A. Aquarium + Maritime Experiential Museum + Typhoon Theatre-SIC Basis</li>
+                    <li>Night Safari Ticket with Return Transfer-SIC Basis and <br> many mare. . .</li>
+                    Call Us For Booking at 9784207077
+
+
+
+                    <br>
+                    <br>
+                    <a href="singapore.html" class="details btn btn-info">
+                        <p style="padding-bottom: 10px;" title="singapore"> More details </p>
+                    </a>
+
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="imgBx">
+                    <img src="img/christoph-schulz-7tb-b37yHx4-unsplash.jpg">
+                </div>
+                <div class="content">
+                    <h3>DUBAI TOUR PACKAGE</h3>
+                    <p>
+                        <br>
+
+                        <li> Dubai Burj Khalifa 124th floor Tour @ Dubai Mall with Musical Fountain Show </li>
+
+                        <li>Dhow Cruise Dinner - Marina</li>
+
+                        <li> Desert Safari by 06 Seated Land Cruise cars, upto 04 Live Entertainment Shows with BBQ Dinner</li>
+                        <li>many more. . .</li>
+                        <li> Call Us For Booking at 9784207077</li>
+                    </p>
+
+                    <a href="dubai.html" class="details btn btn-info">
+                        <p style="padding-bottom: 10px;" title="dubai"> More details </p>
+                    </a>
+
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="imgBx">
+                    <img src="img/Kata-and-Karon-beach-Viewpoint-The-Luxury-Signature.jpg">
+                </div>
+                <div class="content">
+                    <h3>PHUKET and KRABI TOUR PACKAGE</h3>
+
+                    <p>
+
+                        <li>2 Nights accommodation in Krabi and
+                            3 Nights accommodation in Phuket</li>
+                        <li>Local representative for assistance on all arrival and departure transfers</li>
+
+                        <li> Phi Phi island tour by Big Boat with Lunch On SIC Basis </li>
+                        <li>many more. . .</li>
+                        <li> Call Us For Booking at 9784207077</li>
+
+                    </p>
+
+                    <a href="phuket.html" class="details btn btn-info">
+                        <p style="padding-bottom: 10px;"> More details </p>
+                    </a>
+
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="imgBx">
+                    <img src="img/bhatan.jpg">
+                </div>
+                <div class="content">
+                    <h3>BHUTAN TOUR PACKAGE</h3>
+
+
+                    <br>
+                    <p>
+
+                        <li>5 D/ 6 N</li>
+                        <li>Arrival Paro by Druk Air & transfer to Thimphu</li>
+
+                        <li> Thimphu - Paro </li>
+                        <li>many more. . .</li>
+                        <li> Call Us For Booking at 9784207077</li>
+
+                    </p>
+
+                    <a href="bhutan.html" class="details btn btn-info">
+                        <p style="padding-bottom: 10px;"> More details </p>
+                    </a>
+
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="imgBx">
+                    <img src="img/bali.jpg">
+                </div>
+                <div class="content">
+                    <h3>BALI TOUR PACKAGE</h3>
+
+                    <br>
+
+                    <p>
+
+                        <li>Full Day Kintamani Tour With Ubud Village Tour, Lunch at Maison Ubud</li>
+                        <li>visit Legong batik famous for traditional Batik and hand wearing</li>
+
+                        <li> Lembongan Island </li>
+                        <li>many more. . .</li>
+                        <li> Call Us For Booking at 9784207077</li>
+
+                    </p>
+
+                    <a href="bali.html" class="details btn btn-info">
+                        <p style="padding-bottom: 10px;"> More details </p>
+                    </a>
+
+                </div>
+            </div>
+
+
+            <div class="box">
+                <div class="imgBx">
+                    <img src="img/many3">
+                </div>
+                <div class="content">
+                    <h3>And many more tour packages</h3>
+                    <p></p>
+                    <br>
+                    <br>
+                    <a href="#more" class="details btn btn-info">
+                        <p style="padding-bottom: 10px;"> More tour packages </p>
+                    </a>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <div class="container block block-secondary app-block-marketing-grid">
+
+        <div class="container text-xs-center" style="display: flex; flex-wrap: wrap;">
+            <a id="more">
+                <div class="container text-xs-center" style="margin-bottom: 30px;">
+                    <p style="font-size: 30px; color: black; font-weight: bold;">Domestic tour packages (INDIA) </p>
+                </div>
+            </a>
+
+
+            <div class="box">
+                <div class="imgBx">
+                    <img src="img/dargiling.jpg">
+                </div>
+                <div class="content">
+                    <h3>DARJEELING, GANGTOK</h3>
+                    <p>
+
+                        <li>DARJEELING SUNRISE FROM TIGER HILL & LOCAL SIGHT SEEING</li>
+                        <li> TRANSFER TO GANGTOK & LOCAL SIGHTSEEING </li>
+                        <li> TSOMGO LAKE & BABA MANDIR </li>
+                        <li> NJP/BAGDOGRA</li>
+                        <li>many more. . .</li>
+                        <li> Call Us For Booking at 9784207077</li>
+
+
+
+
+
+                    </p>
+                    <br>
+                    <br>
+                    <a href="darjeeling.html" class="details btn btn-info">
+                        <p style="padding-bottom: 10px;"> More details </p>
+                    </a>
+
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="imgBx">
+                    <img src="img/shimla.jpg">
+                </div>
+                <div class="content">
+                    <h3>SHIMLA – MANALI TOUR PACKAGE</h3>
+                    <br>
+                    <p>
+
+                        <li>DRIVE TO SHIMLA</li>
+                        <li>EXCURSION TOUR OF KUFRI</li>
+                        <li style="text-transform: uppercase;">trekking, paragliding, rafting
+                            and skiing in Manali</li>
+                        <li>SIGHTSEEING IN MANALI</li>
+                        <li style="text-transform: uppercase;">visit Nek
+                            Chand's Rock Garden which consists of man-made
+                            interlinked waterfalls and many more . .</li>
+                        <li> Call Us For Booking at 9784207077</li>
+
+
+                    </p>
+
+                    <a href="shimla.html" class="details btn btn-info">
+                        <p style="padding-bottom: 10px;"> More details </p>
+                    </a>
+
+                </div>
+            </div>
+
+
+            <div class="box">
+                <div class="imgBx">
+                    <img src="img/nainital.jpg">
+                </div>
+                <div class="content">
+                    <h3>NAINITAL TOUR PACKAGE</h3>
+                    <br>
+
+                    <p>
+                        <li>Visit Naini Devi Temple, Tibetan
+                            Market, Mall road Naina Devi Temple .</li>
+                        <li>Lake tour (Bhimtal, Sattal,
+                            Nakuchiatal, Fruit Market and Bhowali)</li>
+                        <li>Day at Leisure or visit local sightseeing and many more . .</li>
+                        <li> Call Us For Booking at 9784207077</li>
+
+                    </p>
+                    <a href="nainital.html" class="details btn btn-info">
+                        <p style="padding-bottom: 10px;"> More details </p>
+                    </a>
+
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="imgBx">
+                    <img src="img/kerala.jpg">
+                </div>
+                <div class="content">
+                    <h3> KERALA TOUR PACKAGE </h3>
+                    <p>
+                        <li>6 Days tour Cochin to Munnar, Munnar to Thekkady, Thekkady to Alleppey</li>
+
+                        <li>Drive to Munnar, one of the beautiful hill stations in Kerala with unending expands of Tea plantations, spice plantations.</li>
+
+                        <li>Eravikulam National park (Rajamalai),
+                            Mattupetty Dam, Echo point, Shooting point and Kundale Lake and many more . .</li>
+                        <li> Call Us For Booking at 9784207077</li>
+
+                    </p>
+
+
+                    <a href="kerala.html" class="details btn btn-info">
+                        <p style="padding-bottom: 10px;"> More details </p>
+                    </a>
+
+                </div>
+            </div>
+
+
+            <div class="box">
+                <div class="imgBx">
+                    <img src="img/andman.jpg">
+                </div>
+                <div class="content">
+                    <h3>Andaman and Nicobar Islands</h3>
+                    <p>
+                        <li> Kalapathar Beach</li>
+                        <li> Cellular Jail Light and Sound Show</li>
+                        <li> Havelock Island – Radhanagar Beach</li>
+                        <li> High Speed Catamaran to Havelock</li>
+                        <li>and many more . . .</li>
+                        <li> Call Us For Booking at 9784207077</li>
+
+                    </p>
+                    <br>
+                    <br>
+                    <a href="andman.html" class="details btn btn-info">
+                        <p style="padding-bottom: 10px;"> More details </p>
+                    </a>
+
+                </div>
+            </div>
+
+
+
+        </div>
+
+    </div>
+
+
+
+    <section class="ftco-section testimony-section bg-light">
+        <div class="container">
+            <div class="row justify-content-start">
+                <div class="col-md-5 heading-section ftco-animate">
+                    <span class="subheading">Best tour Website</span>
+                    <h2 class="mb-4 pb-3"><strong>Why</strong> Choose Us?</h2>
+
+                    <p>Our thoughtful team of knowledgeable experts are here to take care of every need, from the second you contact us to when you return.</p>
+
+                </div>
+                <div class="col-md-1"></div>
+                <div class="col-md-6 heading-section ftco-animate">
+                    <span class="subheading">Testimony</span>
+                    <h2 class="mb-4 pb-3"><strong>What</strong> our Guests Says</h2>
+                    <div class="row ftco-animate">
+                        <div class="col-md-12">
+                            <div class="carousel-testimony owl-carousel">
+                                <div class="item">
+                                    <div class="testimony-wrap d-flex">
+                                        <div class="user-img mb-5" style="background-image: url(); ">
+                                            <span class="quote d-flex align-items-center justify-content-center">
+                                                <i class="icon-quote-left"></i>
+                                            </span>
+                                        </div>
+                                        <div class="text ml-md-4">
+                                            <p class="mb-5"> I HAD GREAT TIME WITH FAMILY AND ENJOYED THE TRIP. THANKS VIP TOUR FOR THE WONDERFUL EXPERIENCE. </p>
+                                            <p class="name">Saurabh nagori</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="testimony-wrap d-flex">
+                                        <div class="user-img mb-5" style="background-image: url()">
+                                            <span class="quote d-flex align-items-center justify-content-center">
+                                                <i class="icon-quote-left"></i>
+                                            </span>
+                                        </div>
+                                        <div class="text ml-md-4">
+                                            <p class="mb-5">I am very thankful to the Vip Tour for making my Dubai experience a memorable one with their an amazingly designed Dubai tour package. </p>
+                                            <p class="name"> Manish bhatt</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="testimony-wrap d-flex">
+                                        <div class="user-img mb-5" style="background-image: url()">
+                                            <span class="quote d-flex align-items-center justify-content-center">
+                                                <i class="icon-quote-left"></i>
+                                            </span>
+                                        </div>
+                                        <div class="text ml-md-4">
+                                            <p class="mb-5">Thailand being every bachelor's dream destination, I too decided to take a trip with my gang. Well getting a Thailand visa is not that problematic but choosing the best package is indeed a task. I wanted a package which gives me a chance to see all the major attractions. Hence, me and my friends booked VIP TOUR tour package, and it ended up as a memorable and exotic holiday for us.</p>
+                                            <p class="name">Naveen kumawat</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+    <a name="contact">
+
+        <div class="block block-inverse app-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5 mb-5">
+                        <ul class="list-unstyled list-spaced">
+                            <li class="mb-2">
+                                <h6 class="text-uppercase">About</h6>
+                            </li>
+                            <li class="text-muted">
+                                Vip tour is a specialist tour operator. We focus on creating magical tailor-made journeys that bring travel & places alive and don't scrimp on the smiles. Born in chittorgarh, Rajasthan(India), we've been creating private tailor-made journeys for adventurers and families for the past 5 years.
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-2 offset-md-1 mb-5">
+                        <ul class="list-unstyled list-spaced">
+                            <li class="mb-2">
+                                <h6 class="text-uppercase"></h6>
+                            </li>
+                            <li class="text-muted"></li>
+                            <li class="text-muted"></li>
+                            <li class="text-muted"></li>
+                            <li class="text-muted"></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-2 mb-5">
+                        <ul class="list-unstyled list-spaced">
+                            <li class="mb-2">
+                                <h6 class="text-uppercase"></h6>
+                            </li>
+                            <li class="text-muted"></li>
+                            <li class="text-muted"></li>
+                            <li class="text-muted"></li>
+                            <li class="text-muted"></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-2 mb-5">
+                        <ul class="list-unstyled list-spaced">
+                            <li class="mb-2">
+                                <h6 class="text-uppercase">Contact us</h6>
+                            </li>
+                            <li class="text-muted">14, Collectory chouraha</li>
+                            <li class="text-muted">Chittorgarh</li>
+                            <li class="text-muted">vipcor37@gmail.com</li>
+                            <li class="text-muted">Mob. 9784207077</li>
+                        </ul>
+                    </div>
+                </div>
+
+
+
+
+
+
+
+
+
+
+                <!-- jQuery first, then Bootstrap JS. -->
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+                <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js" integrity="sha384-vZ2WRJMwsjRMW/8U7i6PWi6AlO1L79snBrmgiDpgIWJ82z8eA5lenwvxbMV1PAh7" crossorigin="anonymous"></script>
+
+
+                <script type="text/javascript">
+                    $("form").submit(function(e) {
+
+                        var error = "";
+
+                        if ($("#name").val() == "") {
+
+                            error += "The name field is required.<br>"
+
+                        }
+
+                        if ($("#mobileno").val() == "") {
+
+                            error += "The mobileno field is required.<br>"
+
+                        }
+
+
+                        if ($("#email").val() == "") {
+
+                            error += "The email field is required.<br>"
+
+                        }
+
+
+                        if ($("#content").val() == "") {
+
+                            error += "The content field is required.<br>"
+
+                        }
+
+                        if (error != "") {
+
+                            $("#error").html('<div class="alert alert-danger" role="alert"><p><strong>There were error(s) in your form:</strong></p>' + error + '</div>');
+
+                            return false;
+
+                        } else {
+
+                            return true;
+
+                        }
+                    })
+
+                    var swiper = new Swiper('.blog-slider', {
+                        spaceBetween: 30,
+                        effect: 'fade',
+                        loop: true,
+                        mousewheel: {
+                            invert: false,
+                        },
+                        autoplay: {
+                            delay: 3300,
+                        },
+                        // autoHeight: true,
+                        pagination: {
+                            el: '.blog-slider__pagination',
+                            clickable: true,
+                        }
+                    });
+
+                    // when animating on canvas, it is best to use requestAnimationFrame instead of setTimeout or setInterval
+                    // not supported in all browsers though and sometimes needs a prefix, so we need a shim
+                    window.requestAnimFrame = (function() {
+                        return window.requestAnimationFrame ||
+                            window.webkitRequestAnimationFrame ||
+                            window.mozRequestAnimationFrame ||
+                            function(callback) {
+                                window.setTimeout(callback, 1000 / 60);
+                            };
+                    })();
+
+                    // now we will setup our basic variables for the demo
+                    var canvas = document.getElementById('canvas'),
+                        ctx = canvas.getContext('2d'),
+                        // full screen dimensions
+                        cw = window.innerWidth,
+                        ch = window.innerHeight,
+                        // firework collection
+                        fireworks = [],
+                        // particle collection
+                        particles = [],
+                        // starting hue
+                        hue = 120,
+                        // when launching fireworks with a click, too many get launched at once without a limiter, one launch per 5 loop ticks
+                        limiterTotal = 5,
+                        limiterTick = 0,
+                        // this will time the auto launches of fireworks, one launch per 80 loop ticks
+                        timerTotal = 80,
+                        timerTick = 0,
+                        mousedown = false,
+                        // mouse x coordinate,
+                        mx,
+                        // mouse y coordinate
+                        my;
+
+                    // set canvas dimensions
+                    canvas.width = cw;
+                    canvas.height = ch;
+
+                    // now we are going to setup our function placeholders for the entire demo
+
+                    // get a random number within a range
+                    function random(min, max) {
+                        return Math.random() * (max - min) + min;
+                    }
+
+                    // calculate the distance between two points
+                    function calculateDistance(p1x, p1y, p2x, p2y) {
+                        var xDistance = p1x - p2x,
+                            yDistance = p1y - p2y;
+                        return Math.sqrt(Math.pow(xDistance, 2) + Math.pow(yDistance, 2));
+                    }
+
+                    // create firework
+                    function Firework(sx, sy, tx, ty) {
+                        // actual coordinates
+                        this.x = sx;
+                        this.y = sy;
+                        // starting coordinates
+                        this.sx = sx;
+                        this.sy = sy;
+                        // target coordinates
+                        this.tx = tx;
+                        this.ty = ty;
+                        // distance from starting point to target
+                        this.distanceToTarget = calculateDistance(sx, sy, tx, ty);
+                        this.distanceTraveled = 0;
+                        // track the past coordinates of each firework to create a trail effect, increase the coordinate count to create more prominent trails
+                        this.coordinates = [];
+                        this.coordinateCount = 3;
+                        // populate initial coordinate collection with the current coordinates
+                        while (this.coordinateCount--) {
+                            this.coordinates.push([this.x, this.y]);
+                        }
+                        this.angle = Math.atan2(ty - sy, tx - sx);
+                        this.speed = 2;
+                        this.acceleration = 1.05;
+                        this.brightness = random(50, 70);
+                        // circle target indicator radius
+                        this.targetRadius = 1;
+                    }
+
+                    // update firework
+                    Firework.prototype.update = function(index) {
+                        // remove last item in coordinates array
+                        this.coordinates.pop();
+                        // add current coordinates to the start of the array
+                        this.coordinates.unshift([this.x, this.y]);
+
+                        // cycle the circle target indicator radius
+                        if (this.targetRadius < 8) {
+                            this.targetRadius += 0.3;
+                        } else {
+                            this.targetRadius = 1;
+                        }
+
+                        // speed up the firework
+                        this.speed *= this.acceleration;
+
+                        // get the current velocities based on angle and speed
+                        var vx = Math.cos(this.angle) * this.speed,
+                            vy = Math.sin(this.angle) * this.speed;
+                        // how far will the firework have traveled with velocities applied?
+                        this.distanceTraveled = calculateDistance(this.sx, this.sy, this.x + vx, this.y + vy);
+
+                        // if the distance traveled, including velocities, is greater than the initial distance to the target, then the target has been reached
+                        if (this.distanceTraveled >= this.distanceToTarget) {
+                            createParticles(this.tx, this.ty);
+                            // remove the firework, use the index passed into the update function to determine which to remove
+                            fireworks.splice(index, 1);
+                        } else {
+                            // target not reached, keep traveling
+                            this.x += vx;
+                            this.y += vy;
+                        }
+                    }
+
+                    // draw firework
+                    Firework.prototype.draw = function() {
+                        ctx.beginPath();
+                        // move to the last tracked coordinate in the set, then draw a line to the current x and y
+                        ctx.moveTo(this.coordinates[this.coordinates.length - 1][0], this.coordinates[this.coordinates.length - 1][1]);
+                        ctx.lineTo(this.x, this.y);
+                        ctx.strokeStyle = 'hsl(' + hue + ', 100%, ' + this.brightness + '%)';
+                        ctx.stroke();
+
+                        ctx.beginPath();
+                        // draw the target for this firework with a pulsing circle
+                        ctx.arc(this.tx, this.ty, this.targetRadius, 0, Math.PI * 2);
+                        ctx.stroke();
+                    }
+
+                    // create particle
+                    function Particle(x, y) {
+                        this.x = x;
+                        this.y = y;
+                        // track the past coordinates of each particle to create a trail effect, increase the coordinate count to create more prominent trails
+                        this.coordinates = [];
+                        this.coordinateCount = 5;
+                        while (this.coordinateCount--) {
+                            this.coordinates.push([this.x, this.y]);
+                        }
+                        // set a random angle in all possible directions, in radians
+                        this.angle = random(0, Math.PI * 2);
+                        this.speed = random(1, 10);
+                        // friction will slow the particle down
+                        this.friction = 0.95;
+                        // gravity will be applied and pull the particle down
+                        this.gravity = 1;
+                        // set the hue to a random number +-50 of the overall hue variable
+                        this.hue = random(hue - 50, hue + 50);
+                        this.brightness = random(50, 80);
+                        this.alpha = 1;
+                        // set how fast the particle fades out
+                        this.decay = random(0.015, 0.03);
+                    }
+
+                    // update particle
+                    Particle.prototype.update = function(index) {
+                        // remove last item in coordinates array
+                        this.coordinates.pop();
+                        // add current coordinates to the start of the array
+                        this.coordinates.unshift([this.x, this.y]);
+                        // slow down the particle
+                        this.speed *= this.friction;
+                        // apply velocity
+                        this.x += Math.cos(this.angle) * this.speed;
+                        this.y += Math.sin(this.angle) * this.speed + this.gravity;
+                        // fade out the particle
+                        this.alpha -= this.decay;
+
+                        // remove the particle once the alpha is low enough, based on the passed in index
+                        if (this.alpha <= this.decay) {
+                            particles.splice(index, 1);
+                        }
+                    }
+
+                    // draw particle
+                    Particle.prototype.draw = function() {
+                        ctx.beginPath();
+                        // move to the last tracked coordinates in the set, then draw a line to the current x and y
+                        ctx.moveTo(this.coordinates[this.coordinates.length - 1][0], this.coordinates[this.coordinates.length - 1][1]);
+                        ctx.lineTo(this.x, this.y);
+                        ctx.strokeStyle = 'hsla(' + this.hue + ', 100%, ' + this.brightness + '%, ' + this.alpha + ')';
+                        ctx.stroke();
+                    }
+
+                    // create particle group/explosion
+                    function createParticles(x, y) {
+                        // increase the particle count for a bigger explosion, beware of the canvas performance hit with the increased particles though
+                        var particleCount = 30;
+                        while (particleCount--) {
+                            particles.push(new Particle(x, y));
+                        }
+                    }
+
+                    // main demo loop
+                    function loop() {
+                        // this function will run endlessly with requestAnimationFrame
+                        requestAnimFrame(loop);
+
+                        // increase the hue to get different colored fireworks over time
+                        //hue += 0.5;
+
+                        // create random color
+                        hue = random(0, 360);
+
+                        // normally, clearRect() would be used to clear the canvas
+                        // we want to create a trailing effect though
+                        // setting the composite operation to destination-out will allow us to clear the canvas at a specific opacity, rather than wiping it entirely
+                        ctx.globalCompositeOperation = 'destination-out';
+                        // decrease the alpha property to create more prominent trails
+                        ctx.fillStyle = 'rgba(0, 0, 0, 0.5)';
+                        ctx.fillRect(0, 0, cw, ch);
+                        // change the composite operation back to our main mode
+                        // lighter creates bright highlight points as the fireworks and particles overlap each other
+                        ctx.globalCompositeOperation = 'lighter';
+
+                        // loop over each firework, draw it, update it
+                        var i = fireworks.length;
+                        while (i--) {
+                            fireworks[i].draw();
+                            fireworks[i].update(i);
+                        }
+
+                        // loop over each particle, draw it, update it
+                        var i = particles.length;
+                        while (i--) {
+                            particles[i].draw();
+                            particles[i].update(i);
+                        }
+
+                        // launch fireworks automatically to random coordinates, when the mouse isn't down
+                        if (timerTick >= timerTotal) {
+                            if (!mousedown) {
+                                // start the firework at the bottom middle of the screen, then set the random target coordinates, the random y coordinates will be set within the range of the top half of the screen
+                                fireworks.push(new Firework(cw / 2, ch, random(0, cw), random(0, ch / 2)));
+                                timerTick = 0;
+                            }
+                        } else {
+                            timerTick++;
+                        }
+
+                        // limit the rate at which fireworks get launched when mouse is down
+                        if (limiterTick >= limiterTotal) {
+                            if (mousedown) {
+                                // start the firework at the bottom middle of the screen, then set the current mouse coordinates as the target
+                                fireworks.push(new Firework(cw / 2, ch, mx, my));
+                                limiterTick = 0;
+                            }
+                        } else {
+                            limiterTick++;
+                        }
+                    }
+
+                    // mouse event bindings
+                    // update the mouse coordinates on mousemove
+                    canvas.addEventListener('mousemove', function(e) {
+                        mx = e.pageX - canvas.offsetLeft;
+                        my = e.pageY - canvas.offsetTop;
+                    });
+
+                    // toggle mousedown state and prevent canvas from being selected
+                    canvas.addEventListener('mousedown', function(e) {
+                        e.preventDefault();
+                        mousedown = true;
+                    });
+
+                    canvas.addEventListener('mouseup', function(e) {
+                        e.preventDefault();
+                        mousedown = false;
+                    });
+
+                    // once the window loads, we are ready for some fireworks!
+                    window.onload = loop;
+
+                </script>
+
+
+
+            </div>
+        </div>
+
+
+        <div class="block block-inverse block-secondary app-code-block" style="margin-top:-173px;">
+            <a name="about">
+                <div class="container">
+                    <div class="row app-align-center">
+                        <div class="col-md-5 push-md-7">
+
+
+                            <h1>Go to the best tour of your life with VIP!! </h1>
+                            <h5> Join our Whatsapp group for regular updates and offers on tour packages.</h5>
+                            <br>
+                            <a href="https://chat.whatsapp.com/JLWYfkoMLGXKHUyxZ8Gm6B"><button class="btn btn-secondary btn-lg btn-borderless">
+                                    Join now
+                                </button></a>
+
+
+
+                        </div>
+
+                        <div class="col-md-6 pull-md-5">
+                            <br>
+                            <br>
+                            <h6 class="text-muted text-uppercase">VIP TOUR</h6>
+                            <h3>“Traveling – it leaves you speechless, then turns you into a storyteller."</h3>
+                            <p class="lead mb-4 text-muted">It’s never too late to have a life you love. Don’t ever feel like you’ve missed the boat, don’t have what it takes or can’t achieve your dreams. Instead of removing your dreams, remove the doubts and fears keeping you from them. It’s never, ever too late.</p>
+
+
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+
+
+
+
+
+        <br>
+
+        <div class="container" style="color: black; text-align: center; font-family:cursive; font-weight: 500; font-size: 24px;"> Connect with us </div>
+
+        <br>
+
+        <div class="container" style="text-align: center; max-width: 550px;">
+
+            <a href="https://twitter.com/" target="_blank" class="social-container twitter">
+                <div class="social-cube">
+                    <div class="front" style="font-family: monospace">
+                        Twitter
+                    </div>
+                    <div class="bottom">
+                        @vip
+                    </div>
+                </div>
+            </a>
+
+            <a href="https://facebook.com/vipcor37" target="_blank" class="social-container facebook">
+                <div class="social-cube">
+                    <div class="front">
+                        Facebook
+                    </div>
+                    <div class="bottom">
+                        vip
+                    </div>
+                </div>
+            </a>
+
+            <a href="https://www.instagram.com/vip_communication/" target="_blank" class="social-container youtube">
+                <div class="social-cube">
+                    <div class="front" style="font-family: cursive">
+                        instagram
+                    </div>
+                    <div class="bottom">
+                        @vip
+                    </div>
+                </div>
+            </a>
+
+        </div>
+
+    </a>
+
+    <div class="col-md-12 text-center">
+
+        <p>
+            Copyright &copy;<script>
+                document.write(new Date().getFullYear());
+
+            </script> All rights reserved | This Website is made with <i class="flaticon-like" aria-hidden="true"></i> by <a href="https://www.linkedin.com/in/pranjal-soni-064519172/" target="_blank">pranjal soni</a>
+        </p>
+    </div>
+
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/tether.min.js"></script>
+    <script src="assets/js/toolkit.js"></script>
+    <script src="assets/js/application.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+
+
+
+
+
+</body>
+
+</html>
