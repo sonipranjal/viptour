@@ -1,17 +1,14 @@
 <!DOCTYPE html>
-
-<html lang="en">
-
-<head>
+<html lang="en"><head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="keywords" content="">
     <meta name="author" content="">
-    <meta name="description" content="Malaysia, Thailand, Dubai, Singapore tour land packages. DARJEELING-GANGTOK, SHIMLA-MANALI, NAINITAL, KERALA, and much more travel packages at best price. " />
+    <meta name="description" content="Malaysia, Thailand, Dubai, Singapore tour land packages. DARJEELING-GANGTOK, SHIMLA-MANALI, NAINITAL, KERALA, and much more travel packages at best price. ">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/css/swiper.min.css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/css/swiper.min.css">
     <link rel="stylesheet" href="./style.css">
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -28,7 +25,7 @@
 
     <link rel="stylesheet" href="css/flaticon.css">
     <link rel="stylesheet" href="css/icomoon.css">
-    <link href='https://fonts.googleapis.com/css?family=Lora:400,400italic|Work+Sans:300,400,500,600' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,400italic|Work+Sans:300,400,500,600" rel="stylesheet" type="text/css">
     <link href="css/toolkit-startup.css" rel="stylesheet">
     <link href="css/application-startup.css" rel="stylesheet">
 
@@ -47,13 +44,40 @@
 
         }
 
+        canvas {
+
+            cursor: crosshair;
+            display: block;
+            background: url('img/diwalifinal.jpg') no-repeat center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center center;
+            background-attachment: fixed;
+
+        }
+
+        @media only screen and (max-width: 767px) {
+            canvas {
+                background-image: url(img/mobilediwali);
+                cursor: crosshair;
+            display: block;
+            background-repeat: no-repeat;
+            background-size: cover;
+                
+            background-position: center center;
+            background-attachment: fixed;
+            }
+        }
+
+
+
         .box {
             position: relative;
             width: 300px;
             height: 400px;
             margin: 60px auto 20px auto;
             background: #000;
-            box-shadow: 0 30px 30px rgba(0, 0, 0, .5);`
+            box-shadow: 0 30px 30px rgba(0, 0, 0, .5);
         }
 
         .box .imgBx {
@@ -908,7 +932,413 @@
 
     </style>
 
-</head>
+<style type="text/css">.keyword-info-container {
+  box-sizing: border-box;
+  width: 100%;
+  margin-bottom: 20px;
+  font-size: 12px;
+  border-bottom: 1px solid #DEE1E5;
+}
+
+.keyword-info-container.youtube {
+  margin-bottom: 0;
+  border-bottom: none;
+}
+
+.keyword-info-container .title {
+	color: #26282D;
+	font-size: 17px;
+  font-weight: bold;
+}
+
+.keyword-info-container .tabs {
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+  border-bottom: 1px solid #DEE1E5;
+  margin-top: -10px;
+  padding: 0px 16px;
+  align-items: center;
+}
+.keyword-info-container .tabs li {
+  padding: 8px;
+  padding-left: 0;
+  color: #000;
+  cursor: pointer;
+  font-size: 12px;
+}
+.keyword-info-container .tabs li.small {
+  font-size: 10px;
+}
+.keyword-info-container .tabs li:last-child {
+  overflow: hidden;
+}
+
+.keyword-info-container .tabs li.active {
+  color: #4285F4;
+}
+
+table.keyword-info-table {
+  border-collapse: collapse;
+  width: 100%;
+  color: #000;
+  font-size: 12px;
+  position: relative;
+}
+
+.keyword-info-table thead {
+  height: 50px;
+}
+
+.keyword-info-table th {
+  padding: 10px;
+  padding-left: 0;
+  font-weight: bold;
+  color: #000000;
+  font-size: 12px;
+}
+
+.keyword-info-table th:first-child {
+  padding-left: 16px;
+}
+
+.keyword-info-table th:last-child {
+  padding-right: 16px;
+}
+
+.keyword-info-table td {
+  border-bottom: 1px solid #DEE1E5;
+  padding: 10px;
+  padding-left: 0;
+}
+
+.keyword-info-table td:first-child {
+  padding-left: 16px;
+}
+
+.keyword-info-table td:last-child {
+  padding-right: 16px;
+}
+
+.keyword-info-table tfoot tr {
+  background-color: #DEE1E544;
+}
+
+.keyword-info-table tfoot tr:last-child td{
+  border-bottom: none;
+}
+
+.ubersuggest-button {
+  color: #0086F7;
+  font-family: Arial;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 29px;
+  padding: 8px 30px;
+  border: 1px solid #0086F7;
+  background-color: #FFFFFF;
+  border-radius: 2px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  margin: 4px;
+}
+
+.ubersuggest-logo-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 10px 10px 0 0;
+  font-weight: bold;
+  color: #26282D;
+}
+
+.ubersuggest-logo {
+  width: 182px;
+  height: 33px;
+  cursor: pointer;
+}
+
+.keyword-info-container .row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding: 20px 16px;
+  border-top: 1px solid #DEE1E5;
+}
+
+.header h2 {
+  color: #000000;
+  font-family: Geomanist;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+html[dark] .keyword-info-container .title {
+  color: #fff;
+}
+
+html[dark] .keyword-info-container .tabs {
+  border-color: #ffffff0d;
+}
+
+html[dark] .keyword-info-container .tabs li {
+  color: #fff;
+}
+
+html[dark] .keyword-info-container .tabs li.active {
+  color: #4285F4;
+}
+
+html[dark] table.keyword-info-table {
+  color: #fff;
+}
+
+html[dark] .keyword-info-table th {
+  color: #fff;
+}
+
+html[dark] .keyword-info-table tfoot tr {
+  background-color: #3D3D3D;
+}
+
+html[dark] .keyword-info-table tfoot tr:last-child td .button-arrow{
+  border-color: #fff;
+}
+
+
+</style><style type="text/css">.tippy-touch{cursor:pointer!important}.tippy-notransition{transition:none!important}.tippy-popper{max-width:400px;-webkit-perspective:800px;perspective:800px;z-index:9999;outline:0;transition-timing-function:cubic-bezier(.165,.84,.44,1);pointer-events:none}.tippy-popper.html-template{max-width:96%;max-width:calc(100% - 20px)}.tippy-popper[x-placement^=top] [x-arrow]{border-top:7px solid #333;border-right:7px solid transparent;border-left:7px solid transparent;bottom:-7px;margin:0 9px}.tippy-popper[x-placement^=top] [x-arrow].arrow-small{border-top:5px solid #333;border-right:5px solid transparent;border-left:5px solid transparent;bottom:-5px}.tippy-popper[x-placement^=top] [x-arrow].arrow-big{border-top:10px solid #333;border-right:10px solid transparent;border-left:10px solid transparent;bottom:-10px}.tippy-popper[x-placement^=top] [x-circle]{-webkit-transform-origin:0 33%;transform-origin:0 33%}.tippy-popper[x-placement^=top] [x-circle].enter{-webkit-transform:scale(1) translate(-50%,-55%);transform:scale(1) translate(-50%,-55%);opacity:1}.tippy-popper[x-placement^=top] [x-circle].leave{-webkit-transform:scale(.15) translate(-50%,-50%);transform:scale(.15) translate(-50%,-50%);opacity:0}.tippy-popper[x-placement^=top] .tippy-tooltip.light-theme [x-circle]{background-color:#fff}.tippy-popper[x-placement^=top] .tippy-tooltip.light-theme [x-arrow]{border-top:7px solid #fff;border-right:7px solid transparent;border-left:7px solid transparent}.tippy-popper[x-placement^=top] .tippy-tooltip.light-theme [x-arrow].arrow-small{border-top:5px solid #fff;border-right:5px solid transparent;border-left:5px solid transparent}.tippy-popper[x-placement^=top] .tippy-tooltip.light-theme [x-arrow].arrow-big{border-top:10px solid #fff;border-right:10px solid transparent;border-left:10px solid transparent}.tippy-popper[x-placement^=top] .tippy-tooltip.transparent-theme [x-circle]{background-color:rgba(0,0,0,.7)}.tippy-popper[x-placement^=top] .tippy-tooltip.transparent-theme [x-arrow]{border-top:7px solid rgba(0,0,0,.7);border-right:7px solid transparent;border-left:7px solid transparent}.tippy-popper[x-placement^=top] .tippy-tooltip.transparent-theme [x-arrow].arrow-small{border-top:5px solid rgba(0,0,0,.7);border-right:5px solid transparent;border-left:5px solid transparent}.tippy-popper[x-placement^=top] .tippy-tooltip.transparent-theme [x-arrow].arrow-big{border-top:10px solid rgba(0,0,0,.7);border-right:10px solid transparent;border-left:10px solid transparent}.tippy-popper[x-placement^=top] [data-animation=perspective]{-webkit-transform-origin:bottom;transform-origin:bottom}.tippy-popper[x-placement^=top] [data-animation=perspective].enter{opacity:1;-webkit-transform:translateY(-10px) rotateX(0);transform:translateY(-10px) rotateX(0)}.tippy-popper[x-placement^=top] [data-animation=perspective].leave{opacity:0;-webkit-transform:translateY(0) rotateX(90deg);transform:translateY(0) rotateX(90deg)}.tippy-popper[x-placement^=top] [data-animation=fade].enter{opacity:1;-webkit-transform:translateY(-10px);transform:translateY(-10px)}.tippy-popper[x-placement^=top] [data-animation=fade].leave{opacity:0;-webkit-transform:translateY(-10px);transform:translateY(-10px)}.tippy-popper[x-placement^=top] [data-animation=shift].enter{opacity:1;-webkit-transform:translateY(-10px);transform:translateY(-10px)}.tippy-popper[x-placement^=top] [data-animation=shift].leave{opacity:0;-webkit-transform:translateY(0);transform:translateY(0)}.tippy-popper[x-placement^=top] [data-animation=scale].enter{opacity:1;-webkit-transform:translateY(-10px) scale(1);transform:translateY(-10px) scale(1)}.tippy-popper[x-placement^=top] [data-animation=scale].leave{opacity:0;-webkit-transform:translateY(0) scale(0);transform:translateY(0) scale(0)}.tippy-popper[x-placement^=bottom] [x-arrow]{border-bottom:7px solid #333;border-right:7px solid transparent;border-left:7px solid transparent;top:-7px;margin:0 9px}.tippy-popper[x-placement^=bottom] [x-arrow].arrow-small{border-bottom:5px solid #333;border-right:5px solid transparent;border-left:5px solid transparent;top:-5px}.tippy-popper[x-placement^=bottom] [x-arrow].arrow-big{border-bottom:10px solid #333;border-right:10px solid transparent;border-left:10px solid transparent;top:-10px}.tippy-popper[x-placement^=bottom] [x-circle]{-webkit-transform-origin:0 -50%;transform-origin:0 -50%}.tippy-popper[x-placement^=bottom] [x-circle].enter{-webkit-transform:scale(1) translate(-50%,-45%);transform:scale(1) translate(-50%,-45%);opacity:1}.tippy-popper[x-placement^=bottom] [x-circle].leave{-webkit-transform:scale(.15) translate(-50%,-5%);transform:scale(.15) translate(-50%,-5%);opacity:0}.tippy-popper[x-placement^=bottom] .tippy-tooltip.light-theme [x-circle]{background-color:#fff}.tippy-popper[x-placement^=bottom] .tippy-tooltip.light-theme [x-arrow]{border-bottom:7px solid #fff;border-right:7px solid transparent;border-left:7px solid transparent}.tippy-popper[x-placement^=bottom] .tippy-tooltip.light-theme [x-arrow].arrow-small{border-bottom:5px solid #fff;border-right:5px solid transparent;border-left:5px solid transparent}.tippy-popper[x-placement^=bottom] .tippy-tooltip.light-theme [x-arrow].arrow-big{border-bottom:10px solid #fff;border-right:10px solid transparent;border-left:10px solid transparent}.tippy-popper[x-placement^=bottom] .tippy-tooltip.transparent-theme [x-circle]{background-color:rgba(0,0,0,.7)}.tippy-popper[x-placement^=bottom] .tippy-tooltip.transparent-theme [x-arrow]{border-bottom:7px solid rgba(0,0,0,.7);border-right:7px solid transparent;border-left:7px solid transparent}.tippy-popper[x-placement^=bottom] .tippy-tooltip.transparent-theme [x-arrow].arrow-small{border-bottom:5px solid rgba(0,0,0,.7);border-right:5px solid transparent;border-left:5px solid transparent}.tippy-popper[x-placement^=bottom] .tippy-tooltip.transparent-theme [x-arrow].arrow-big{border-bottom:10px solid rgba(0,0,0,.7);border-right:10px solid transparent;border-left:10px solid transparent}.tippy-popper[x-placement^=bottom] [data-animation=perspective]{-webkit-transform-origin:top;transform-origin:top}.tippy-popper[x-placement^=bottom] [data-animation=perspective].enter{opacity:1;-webkit-transform:translateY(10px) rotateX(0);transform:translateY(10px) rotateX(0)}.tippy-popper[x-placement^=bottom] [data-animation=perspective].leave{opacity:0;-webkit-transform:translateY(0) rotateX(-90deg);transform:translateY(0) rotateX(-90deg)}.tippy-popper[x-placement^=bottom] [data-animation=fade].enter{opacity:1;-webkit-transform:translateY(10px);transform:translateY(10px)}.tippy-popper[x-placement^=bottom] [data-animation=fade].leave{opacity:0;-webkit-transform:translateY(10px);transform:translateY(10px)}.tippy-popper[x-placement^=bottom] [data-animation=shift].enter{opacity:1;-webkit-transform:translateY(10px);transform:translateY(10px)}.tippy-popper[x-placement^=bottom] [data-animation=shift].leave{opacity:0;-webkit-transform:translateY(0);transform:translateY(0)}.tippy-popper[x-placement^=bottom] [data-animation=scale].enter{opacity:1;-webkit-transform:translateY(10px) scale(1);transform:translateY(10px) scale(1)}.tippy-popper[x-placement^=bottom] [data-animation=scale].leave{opacity:0;-webkit-transform:translateY(0) scale(0);transform:translateY(0) scale(0)}.tippy-popper[x-placement^=left] [x-arrow]{border-left:7px solid #333;border-top:7px solid transparent;border-bottom:7px solid transparent;right:-7px;margin:6px 0}.tippy-popper[x-placement^=left] [x-arrow].arrow-small{border-left:5px solid #333;border-top:5px solid transparent;border-bottom:5px solid transparent;right:-5px}.tippy-popper[x-placement^=left] [x-arrow].arrow-big{border-left:10px solid #333;border-top:10px solid transparent;border-bottom:10px solid transparent;right:-10px}.tippy-popper[x-placement^=left] [x-circle]{-webkit-transform-origin:50% 0;transform-origin:50% 0}.tippy-popper[x-placement^=left] [x-circle].enter{-webkit-transform:scale(1) translate(-50%,-50%);transform:scale(1) translate(-50%,-50%);opacity:1}.tippy-popper[x-placement^=left] [x-circle].leave{-webkit-transform:scale(.15) translate(-50%,-50%);transform:scale(.15) translate(-50%,-50%);opacity:0}.tippy-popper[x-placement^=left] .tippy-tooltip.light-theme [x-circle]{background-color:#fff}.tippy-popper[x-placement^=left] .tippy-tooltip.light-theme [x-arrow]{border-left:7px solid #fff;border-top:7px solid transparent;border-bottom:7px solid transparent}.tippy-popper[x-placement^=left] .tippy-tooltip.light-theme [x-arrow].arrow-small{border-left:5px solid #fff;border-top:5px solid transparent;border-bottom:5px solid transparent}.tippy-popper[x-placement^=left] .tippy-tooltip.light-theme [x-arrow].arrow-big{border-left:10px solid #fff;border-top:10px solid transparent;border-bottom:10px solid transparent}.tippy-popper[x-placement^=left] .tippy-tooltip.transparent-theme [x-circle]{background-color:rgba(0,0,0,.7)}.tippy-popper[x-placement^=left] .tippy-tooltip.transparent-theme [x-arrow]{border-left:7px solid rgba(0,0,0,.7);border-top:7px solid transparent;border-bottom:7px solid transparent}.tippy-popper[x-placement^=left] .tippy-tooltip.transparent-theme [x-arrow].arrow-small{border-left:5px solid rgba(0,0,0,.7);border-top:5px solid transparent;border-bottom:5px solid transparent}.tippy-popper[x-placement^=left] .tippy-tooltip.transparent-theme [x-arrow].arrow-big{border-left:10px solid rgba(0,0,0,.7);border-top:10px solid transparent;border-bottom:10px solid transparent}.tippy-popper[x-placement^=left] [data-animation=perspective]{-webkit-transform-origin:right;transform-origin:right}.tippy-popper[x-placement^=left] [data-animation=perspective].enter{opacity:1;-webkit-transform:translateX(-10px) rotateY(0);transform:translateX(-10px) rotateY(0)}.tippy-popper[x-placement^=left] [data-animation=perspective].leave{opacity:0;-webkit-transform:translateX(0) rotateY(-90deg);transform:translateX(0) rotateY(-90deg)}.tippy-popper[x-placement^=left] [data-animation=fade].enter{opacity:1;-webkit-transform:translateX(-10px);transform:translateX(-10px)}.tippy-popper[x-placement^=left] [data-animation=fade].leave{opacity:0;-webkit-transform:translateX(-10px);transform:translateX(-10px)}.tippy-popper[x-placement^=left] [data-animation=shift].enter{opacity:1;-webkit-transform:translateX(-10px);transform:translateX(-10px)}.tippy-popper[x-placement^=left] [data-animation=shift].leave{opacity:0;-webkit-transform:translateX(0);transform:translateX(0)}.tippy-popper[x-placement^=left] [data-animation=scale].enter{opacity:1;-webkit-transform:translateX(-10px) scale(1);transform:translateX(-10px) scale(1)}.tippy-popper[x-placement^=left] [data-animation=scale].leave{opacity:0;-webkit-transform:translateX(0) scale(0);transform:translateX(0) scale(0)}.tippy-popper[x-placement^=right] [x-arrow]{border-right:7px solid #333;border-top:7px solid transparent;border-bottom:7px solid transparent;left:-7px;margin:6px 0}.tippy-popper[x-placement^=right] [x-arrow].arrow-small{border-right:5px solid #333;border-top:5px solid transparent;border-bottom:5px solid transparent;left:-5px}.tippy-popper[x-placement^=right] [x-arrow].arrow-big{border-right:10px solid #333;border-top:10px solid transparent;border-bottom:10px solid transparent;left:-10px}.tippy-popper[x-placement^=right] [x-circle]{-webkit-transform-origin:-50% 0;transform-origin:-50% 0}.tippy-popper[x-placement^=right] [x-circle].enter{-webkit-transform:scale(1) translate(-50%,-50%);transform:scale(1) translate(-50%,-50%);opacity:1}.tippy-popper[x-placement^=right] [x-circle].leave{-webkit-transform:scale(.15) translate(-50%,-50%);transform:scale(.15) translate(-50%,-50%);opacity:0}.tippy-popper[x-placement^=right] .tippy-tooltip.light-theme [x-circle]{background-color:#fff}.tippy-popper[x-placement^=right] .tippy-tooltip.light-theme [x-arrow]{border-right:7px solid #fff;border-top:7px solid transparent;border-bottom:7px solid transparent}.tippy-popper[x-placement^=right] .tippy-tooltip.light-theme [x-arrow].arrow-small{border-right:5px solid #fff;border-top:5px solid transparent;border-bottom:5px solid transparent}.tippy-popper[x-placement^=right] .tippy-tooltip.light-theme [x-arrow].arrow-big{border-right:10px solid #fff;border-top:10px solid transparent;border-bottom:10px solid transparent}.tippy-popper[x-placement^=right] .tippy-tooltip.transparent-theme [x-circle]{background-color:rgba(0,0,0,.7)}.tippy-popper[x-placement^=right] .tippy-tooltip.transparent-theme [x-arrow]{border-right:7px solid rgba(0,0,0,.7);border-top:7px solid transparent;border-bottom:7px solid transparent}.tippy-popper[x-placement^=right] .tippy-tooltip.transparent-theme [x-arrow].arrow-small{border-right:5px solid rgba(0,0,0,.7);border-top:5px solid transparent;border-bottom:5px solid transparent}.tippy-popper[x-placement^=right] .tippy-tooltip.transparent-theme [x-arrow].arrow-big{border-right:10px solid rgba(0,0,0,.7);border-top:10px solid transparent;border-bottom:10px solid transparent}.tippy-popper[x-placement^=right] [data-animation=perspective]{-webkit-transform-origin:left;transform-origin:left}.tippy-popper[x-placement^=right] [data-animation=perspective].enter{opacity:1;-webkit-transform:translateX(10px) rotateY(0);transform:translateX(10px) rotateY(0)}.tippy-popper[x-placement^=right] [data-animation=perspective].leave{opacity:0;-webkit-transform:translateX(0) rotateY(90deg);transform:translateX(0) rotateY(90deg)}.tippy-popper[x-placement^=right] [data-animation=fade].enter{opacity:1;-webkit-transform:translateX(10px);transform:translateX(10px)}.tippy-popper[x-placement^=right] [data-animation=fade].leave{opacity:0;-webkit-transform:translateX(10px);transform:translateX(10px)}.tippy-popper[x-placement^=right] [data-animation=shift].enter{opacity:1;-webkit-transform:translateX(10px);transform:translateX(10px)}.tippy-popper[x-placement^=right] [data-animation=shift].leave{opacity:0;-webkit-transform:translateX(0);transform:translateX(0)}.tippy-popper[x-placement^=right] [data-animation=scale].enter{opacity:1;-webkit-transform:translateX(10px) scale(1);transform:translateX(10px) scale(1)}.tippy-popper[x-placement^=right] [data-animation=scale].leave{opacity:0;-webkit-transform:translateX(0) scale(0);transform:translateX(0) scale(0)}.tippy-popper .tippy-tooltip.transparent-theme{background-color:rgba(0,0,0,.7)}.tippy-popper .tippy-tooltip.transparent-theme[data-animatefill]{background-color:transparent}.tippy-popper .tippy-tooltip.light-theme{color:#26323d;box-shadow:0 4px 20px 4px rgba(0,20,60,.1),0 4px 80px -8px rgba(0,20,60,.2);background-color:#fff}.tippy-popper .tippy-tooltip.light-theme[data-animatefill]{background-color:transparent}.tippy-tooltip{position:relative;color:#fff;border-radius:4px;font-size:.95rem;padding:.4rem .8rem;text-align:center;will-change:transform;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;background-color:#333}.tippy-tooltip--small{padding:.25rem .5rem;font-size:.8rem}.tippy-tooltip--big{padding:.6rem 1.2rem;font-size:1.2rem}.tippy-tooltip[data-animatefill]{overflow:hidden;background-color:transparent}.tippy-tooltip[data-interactive]{pointer-events:auto}.tippy-tooltip[data-inertia]{transition-timing-function:cubic-bezier(.53,2,.36,.85)}.tippy-tooltip [x-arrow]{position:absolute;width:0;height:0}.tippy-tooltip [x-circle]{position:absolute;will-change:transform;background-color:#333;border-radius:50%;width:130%;width:calc(110% + 2rem);left:50%;top:50%;z-index:-1;overflow:hidden;transition:all ease}.tippy-tooltip [x-circle]:before{content:"";padding-top:90%;float:left}@media (max-width:450px){.tippy-popper{max-width:96%;max-width:calc(100% - 20px)}}
+</style><style type="text/css">.ubersuggest-header-container {
+  box-sizing: border-box;
+  width: 100%;
+  font-size: 12px;
+}
+
+.ubersuggest-header-container .row {
+  margin: 0;
+  padding: 15px 16px 15px 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.ue-enable {
+  display: block;
+}
+
+.ue-disable {
+  display: none;
+}
+
+.ubersuggest-header-container .settings {
+  display: flex;
+  align-items: center;
+  margin-right: 18px;
+}
+.ubersuggest-header-container .settings-label {
+  margin-right: 21px;
+}
+
+.ubersuggest-header-container .settings-icon {
+  width: 21px;
+  height: 21px;
+  margin-right: 7px;
+}
+</style><style type="text/css">.keyword-info-section {
+  color: #26282D;
+  font-family: Arial;
+  font-size: 12px;
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+}
+
+.keyword-info-section.youtube{
+  padding: 6px 0;
+  margin-right: 15px;
+}
+
+.keyword-info-section.amazon{
+  padding: 13px 0;
+}
+</style><style type="text/css">.kw-overview-container {
+  box-sizing: border-box;
+  width: 673px;
+  padding: 0;
+  margin: 0;
+  margin-top: 14px;
+  font-size: 12px;
+}
+.kw-overview-container.youtube {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  font-size: 12px;
+}
+</style><style type="text/css">.bl-info-container {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  font-size: 12px;
+}
+.bl-info-header {
+  display: flex;
+  height: 24px;
+  width: 100%;
+  padding: 0;
+  justify-content: space-between;
+  cursor: pointer;
+  box-sizing: border-box;
+  margin-bottom: 5px;
+}
+
+.bl-info-header .row {
+  display: flex;
+  margin: 0;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.bl-info-header .row.youtube {
+  justify-content: flex-start;
+}
+
+.bl-info-content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #DEE1E5;
+  border-radius: 8px;
+  padding-top: 0;
+}
+
+.bl-info-content img.loading{
+  width: 50px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+table.bl-info-table {
+  border-collapse: collapse;
+  width: 100%;
+  color: #808185;
+  font-size: 12px;
+}
+
+.bl-info-table thead {
+  height: 50px;
+}
+
+.bl-info-table tr {
+  width: 100%;
+  max-width: 600px;
+}
+
+.bl-info-table th {
+  padding: 10px;
+  padding-left: 0;
+  font-weight: bold;
+  color: #000000;
+  font-size: 11px;
+  border-bottom: 1px solid #DEE1E5;
+}
+.bl-info-table th:first-child {
+  padding-left: 16px;
+}
+
+.bl-info-table th:last-child {
+  border-right: none;
+  padding-right: 16px;
+}
+
+
+.bl-info-table td {
+  border-bottom: 1px solid #DEE1E5;
+  padding: 10px;
+  padding-left: 0;
+  max-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: #000;
+}
+
+.bl-info-table td:first-child {
+  border-left: none;
+  padding-left: 16px;
+}
+
+.bl-info-table td:last-child {
+  border-right: none;
+  padding-right: 16px;
+}
+
+.bl-info-table tfoot tr:last-child td {
+  border-bottom: none;
+}
+
+.bl-info-container .row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+</style><style type="text/css">.statistics-graph-container {
+  box-sizing: border-box;
+  width: 100%;
+  margin-bottom: 5px;
+  font-size: 12px;
+  padding: 0px 16px;
+}
+
+.statistics-graph-container .row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0 20px 0;
+}
+
+.statistics-graph-container .row .title {
+	color: #26282D;
+	font-size: 17px;
+  font-weight: bold;
+}
+
+.statistics-graph-container .tabs {
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+  border-bottom: 1px solid #DEE1E5;
+  margin: 0 -16px;
+  margin-bottom: 10px;
+  margin-top: -10px;
+  padding: 0px 16px;
+}
+
+.statistics-graph-container .tabs li {
+  display: flex;
+  align-items: center;
+  padding: 8px 16px;
+  color: #000;
+  cursor: pointer;
+  font-size: 13px;
+  border-bottom: 3px solid transparent;
+}
+
+.statistics-graph-container .tabs li:first-child {
+  margin-left: -16px;
+}
+
+.statistics-graph-container .tabs li.active {
+  color: #4285F4;
+  border-bottom: 3px solid #4285F4;
+}</style></head>
 
 
 
@@ -947,11 +1377,20 @@
         </div>
     </nav>
 
-    <canvas id="canvas"> </canvas>
 
-    <div class="blog-slider">
-        <div class="blog-slider__wrp swiper-wrapper">
-            <div class="blog-slider__item swiper-slide">
+
+    <div class="blog-slider swiper-container-fade swiper-container-horizontal">
+        <div class="blog-slider__wrp swiper-wrapper" style="transition-duration: 0ms;"><div class="blog-slider__item swiper-slide swiper-slide-duplicate" data-swiper-slide-index="5" style="width: 653px; transition-duration: 0ms; opacity: 1; transform: translate3d(0px, 0px, 0px);">
+                <div class="blog-slider__img">
+                    <img src="img/website2.jpg" alt="">
+                </div>
+                <div class="blog-slider__content">
+                    <div class="blog-slider__title">SINGAPORE</div>
+                    <div class="blog-slider__text">City Tour of Singapore with English Speaking Guide, Universal Studios Ticket with Return Transfer-SIC Basis Sentosa &amp; S.E.A. Aquarium + Maritime Experiential Museum + Typhoon Theatre-SIC Basis, Night Safari Ticket with Return Transfer-SIC Basis and many mare. </div>
+                    <a href="andman.html" class="blog-slider__button">KNOW MORE</a>
+                </div>
+            </div>
+            <div class="blog-slider__item swiper-slide" data-swiper-slide-index="0" style="width: 653px; transition-duration: 0ms; opacity: 1; transform: translate3d(-653px, 0px, 0px);">
                 <div class="blog-slider__img">
 
                     <img src="img/dargiling.jpg" alt="">
@@ -962,7 +1401,7 @@
                     <a href="darjeeling.html" class="blog-slider__button">KNOW MORE</a>
                 </div>
             </div>
-            <div class="blog-slider__item swiper-slide">
+            <div class="blog-slider__item swiper-slide" data-swiper-slide-index="1" style="width: 653px; transition-duration: 0ms; opacity: 1; transform: translate3d(-1306px, 0px, 0px);">
                 <div class="blog-slider__img">
                     <img src="img/shimla.jpg" alt="">
                 </div>
@@ -973,7 +1412,7 @@
                 </div>
             </div>
 
-            <div class="blog-slider__item swiper-slide">
+            <div class="blog-slider__item swiper-slide swiper-slide-prev" data-swiper-slide-index="2" style="width: 653px; transition-duration: 0ms; opacity: 1; transform: translate3d(-1959px, 0px, 0px);">
                 <div class="blog-slider__img">
                     <img src="img/andman.jpg" alt="">
                 </div>
@@ -984,7 +1423,7 @@
                 </div>
             </div>
 
-            <div class="blog-slider__item swiper-slide">
+            <div class="blog-slider__item swiper-slide swiper-slide-active" data-swiper-slide-index="3" style="width: 653px; transition-duration: 0ms; opacity: 1; transform: translate3d(-2612px, 0px, 0px);">
                 <div class="blog-slider__img">
                     <img src="img/christoph-schulz-7tb-b37yHx4-unsplash.jpg" alt="">
                 </div>
@@ -996,7 +1435,7 @@
             </div>
 
 
-            <div class="blog-slider__item swiper-slide">
+            <div class="blog-slider__item swiper-slide swiper-slide-next" data-swiper-slide-index="4" style="width: 653px; transition-duration: 0ms; opacity: 0; transform: translate3d(-3265px, 0px, 0px);">
                 <div class="blog-slider__img">
                     <img src="img/meimei-ismail-JCsmBJPHW-s-unsplash.jpg" alt="">
                 </div>
@@ -1013,79 +1452,35 @@
             </div>
 
 
-            <div class="blog-slider__item swiper-slide">
+            <div class="blog-slider__item swiper-slide" data-swiper-slide-index="5" style="width: 653px; transition-duration: 0ms; opacity: 0; transform: translate3d(-3918px, 0px, 0px);">
                 <div class="blog-slider__img">
                     <img src="img/website2.jpg" alt="">
                 </div>
                 <div class="blog-slider__content">
                     <div class="blog-slider__title">SINGAPORE</div>
-                    <div class="blog-slider__text">City Tour of Singapore with English Speaking Guide, Universal Studios Ticket with Return Transfer-SIC Basis Sentosa & S.E.A. Aquarium + Maritime Experiential Museum + Typhoon Theatre-SIC Basis, Night Safari Ticket with Return Transfer-SIC Basis and many mare. </div>
+                    <div class="blog-slider__text">City Tour of Singapore with English Speaking Guide, Universal Studios Ticket with Return Transfer-SIC Basis Sentosa &amp; S.E.A. Aquarium + Maritime Experiential Museum + Typhoon Theatre-SIC Basis, Night Safari Ticket with Return Transfer-SIC Basis and many mare. </div>
                     <a href="andman.html" class="blog-slider__button">KNOW MORE</a>
                 </div>
             </div>
 
 
 
-        </div>
-        <div class="blog-slider__pagination"></div>
-    </div>
+        <div class="blog-slider__item swiper-slide swiper-slide-duplicate" data-swiper-slide-index="0" style="width: 653px; transition-duration: 0ms; opacity: 0; transform: translate3d(-4571px, 0px, 0px);">
+                <div class="blog-slider__img">
+
+                    <img src="img/dargiling.jpg" alt="">
+                </div>
+                <div class="blog-slider__content">
+                    <div class="blog-slider__title">Dargilling tour package</div>
+                    <div class="blog-slider__text">A colour lush green, This is Darjeeling. Visit Darjeeling once and you will have with you "a life time of memories", memories that you'll cherish forever. </div>
+                    <a href="darjeeling.html" class="blog-slider__button">KNOW MORE</a>
+                </div>
+            </div></div>
+        <div class="blog-slider__pagination swiper-pagination-clickable swiper-pagination-bullets"><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 1"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 2"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 3"></span><span class="swiper-pagination-bullet swiper-pagination-bullet-active" tabindex="0" role="button" aria-label="Go to slide 4"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 5"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 6"></span></div>
+    <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
     <!-- partial -->
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/js/swiper.min.js'></script>
-
-
-    <section class="ftco-section services-section bg-light" style="margin-top: -120px;">
-        <div class="container">
-            <h2 class="text-xs-center" style="color: #F85959; text-transform: uppercase; margin-top: ;"> international and domestic travel packages at best price with vip tour.
-            </h2>
-            <div class="row d-flex">
-                <div class="col-md-3 d-flex align-self-stretch ftco-animate">
-                    <div class="media block-6 services d-block text-center">
-                        <div class="d-flex justify-content-center">
-                            <div class="icon"><span class="flaticon-guarantee"></span></div>
-                        </div>
-                        <div class="media-body p-2 mt-2">
-                            <h3 class="heading mb-3">Best Price Guarantee</h3>
-                            <p>"Price is what you pay. Value is what you get."- Warren Buffett</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 d-flex align-self-stretch ftco-animate">
-                    <div class="media block-6 services d-block text-center">
-                        <div class="d-flex justify-content-center">
-                            <div class="icon"><span class="flaticon-like"></span></div>
-                        </div>
-                        <div class="media-body p-2 mt-2">
-                            <h3 class="heading mb-3">Travellers Love Us</h3>
-                            <p>Let's find some beautiful place to get lost.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 d-flex align-self-stretch ftco-animate">
-                    <div class="media block-6 services d-block text-center">
-                        <div class="d-flex justify-content-center">
-                            <div class="icon"><span class="flaticon-detective"></span></div>
-                        </div>
-                        <div class="media-body p-2 mt-2">
-                            <h3 class="heading mb-3">Best Travel Agent</h3>
-                            <p>Always delivered more than expected.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 d-flex align-self-stretch ftco-animate">
-                    <div class="media block-6 services d-block text-center">
-                        <div class="d-flex justify-content-center">
-                            <div class="icon"><span class="flaticon-support"></span></div>
-                        </div>
-                        <div class="media-body p-2 mt-2">
-                            <h3 class="heading mb-3">Our Dedicated Support</h3>
-                            <p>We always ready for you to help, call us anytime at +919784207077.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/js/swiper.min.js"></script>
 
 
     <div class="block block-inverse app-high-praise imagepawan">
@@ -1161,7 +1556,7 @@
 
 
                     <p>
-                        <li>2 Nights Bangkok & 2 Nights Pattaya
+                        </p><li>2 Nights Bangkok &amp; 2 Nights Pattaya
 
                             Or
 
@@ -1185,7 +1580,7 @@
 
 
                         <br>
-                    </p>
+                    <p></p>
 
                     <a href="thailand.html" class="details btn btn-info">
                         <p style="padding-bottom: 10px;" title="thailand"> More details </p>
@@ -1205,7 +1600,7 @@
 
                     <li>City Tour of Singapore with English Speaking Guide-SIC Basis</li>
                     <li>Universal Studios Ticket with Return Transfer-SIC Basis</li>
-                    <li>Sentosa & S.E.A. Aquarium + Maritime Experiential Museum + Typhoon Theatre-SIC Basis</li>
+                    <li>Sentosa &amp; S.E.A. Aquarium + Maritime Experiential Museum + Typhoon Theatre-SIC Basis</li>
                     <li>Night Safari Ticket with Return Transfer-SIC Basis and <br> many mare. . .</li>
                     Call Us For Booking at 9784207077
 
@@ -1229,14 +1624,14 @@
                     <p>
                         <br>
 
-                        <li> Dubai Burj Khalifa 124th floor Tour @ Dubai Mall with Musical Fountain Show </li>
+                        </p><li> Dubai Burj Khalifa 124th floor Tour @ Dubai Mall with Musical Fountain Show </li>
 
                         <li>Dhow Cruise Dinner - Marina</li>
 
                         <li> Desert Safari by 06 Seated Land Cruise cars, upto 04 Live Entertainment Shows with BBQ Dinner</li>
                         <li>many more. . .</li>
                         <li> Call Us For Booking at 9784207077</li>
-                    </p>
+                    <p></p>
 
                     <a href="dubai.html" class="details btn btn-info">
                         <p style="padding-bottom: 10px;" title="dubai"> More details </p>
@@ -1254,7 +1649,7 @@
 
                     <p>
 
-                        <li>2 Nights accommodation in Krabi and
+                        </p><li>2 Nights accommodation in Krabi and
                             3 Nights accommodation in Phuket</li>
                         <li>Local representative for assistance on all arrival and departure transfers</li>
 
@@ -1262,7 +1657,7 @@
                         <li>many more. . .</li>
                         <li> Call Us For Booking at 9784207077</li>
 
-                    </p>
+                    <p></p>
 
                     <a href="phuket.html" class="details btn btn-info">
                         <p style="padding-bottom: 10px;"> More details </p>
@@ -1282,14 +1677,14 @@
                     <br>
                     <p>
 
-                        <li>5 D/ 6 N</li>
-                        <li>Arrival Paro by Druk Air & transfer to Thimphu</li>
+                        </p><li>5 D/ 6 N</li>
+                        <li>Arrival Paro by Druk Air &amp; transfer to Thimphu</li>
 
                         <li> Thimphu - Paro </li>
                         <li>many more. . .</li>
                         <li> Call Us For Booking at 9784207077</li>
 
-                    </p>
+                    <p></p>
 
                     <a href="bhutan.html" class="details btn btn-info">
                         <p style="padding-bottom: 10px;"> More details </p>
@@ -1309,14 +1704,14 @@
 
                     <p>
 
-                        <li>Full Day Kintamani Tour With Ubud Village Tour, Lunch at Maison Ubud</li>
+                        </p><li>Full Day Kintamani Tour With Ubud Village Tour, Lunch at Maison Ubud</li>
                         <li>visit Legong batik famous for traditional Batik and hand wearing</li>
 
                         <li> Lembongan Island </li>
                         <li>many more. . .</li>
                         <li> Call Us For Booking at 9784207077</li>
 
-                    </p>
+                    <p></p>
 
                     <a href="bali.html" class="details btn btn-info">
                         <p style="padding-bottom: 10px;"> More details </p>
@@ -1366,9 +1761,9 @@
                     <h3>DARJEELING, GANGTOK</h3>
                     <p>
 
-                        <li>DARJEELING SUNRISE FROM TIGER HILL & LOCAL SIGHT SEEING</li>
-                        <li> TRANSFER TO GANGTOK & LOCAL SIGHTSEEING </li>
-                        <li> TSOMGO LAKE & BABA MANDIR </li>
+                        </p><li>DARJEELING SUNRISE FROM TIGER HILL &amp; LOCAL SIGHT SEEING</li>
+                        <li> TRANSFER TO GANGTOK &amp; LOCAL SIGHTSEEING </li>
+                        <li> TSOMGO LAKE &amp; BABA MANDIR </li>
                         <li> NJP/BAGDOGRA</li>
                         <li>many more. . .</li>
                         <li> Call Us For Booking at 9784207077</li>
@@ -1377,7 +1772,7 @@
 
 
 
-                    </p>
+                    <p></p>
                     <br>
                     <br>
                     <a href="darjeeling.html" class="details btn btn-info">
@@ -1396,7 +1791,7 @@
                     <br>
                     <p>
 
-                        <li>DRIVE TO SHIMLA</li>
+                        </p><li>DRIVE TO SHIMLA</li>
                         <li>EXCURSION TOUR OF KUFRI</li>
                         <li style="text-transform: uppercase;">trekking, paragliding, rafting
                             and skiing in Manali</li>
@@ -1407,7 +1802,7 @@
                         <li> Call Us For Booking at 9784207077</li>
 
 
-                    </p>
+                    <p></p>
 
                     <a href="shimla.html" class="details btn btn-info">
                         <p style="padding-bottom: 10px;"> More details </p>
@@ -1426,14 +1821,14 @@
                     <br>
 
                     <p>
-                        <li>Visit Naini Devi Temple, Tibetan
+                        </p><li>Visit Naini Devi Temple, Tibetan
                             Market, Mall road Naina Devi Temple .</li>
                         <li>Lake tour (Bhimtal, Sattal,
                             Nakuchiatal, Fruit Market and Bhowali)</li>
                         <li>Day at Leisure or visit local sightseeing and many more . .</li>
                         <li> Call Us For Booking at 9784207077</li>
 
-                    </p>
+                    <p></p>
                     <a href="nainital.html" class="details btn btn-info">
                         <p style="padding-bottom: 10px;"> More details </p>
                     </a>
@@ -1448,7 +1843,7 @@
                 <div class="content">
                     <h3> KERALA TOUR PACKAGE </h3>
                     <p>
-                        <li>6 Days tour Cochin to Munnar, Munnar to Thekkady, Thekkady to Alleppey</li>
+                        </p><li>6 Days tour Cochin to Munnar, Munnar to Thekkady, Thekkady to Alleppey</li>
 
                         <li>Drive to Munnar, one of the beautiful hill stations in Kerala with unending expands of Tea plantations, spice plantations.</li>
 
@@ -1456,7 +1851,7 @@
                             Mattupetty Dam, Echo point, Shooting point and Kundale Lake and many more . .</li>
                         <li> Call Us For Booking at 9784207077</li>
 
-                    </p>
+                    <p></p>
 
 
                     <a href="kerala.html" class="details btn btn-info">
@@ -1474,14 +1869,14 @@
                 <div class="content">
                     <h3>Andaman and Nicobar Islands</h3>
                     <p>
-                        <li> Kalapathar Beach</li>
+                        </p><li> Kalapathar Beach</li>
                         <li> Cellular Jail Light and Sound Show</li>
                         <li> Havelock Island – Radhanagar Beach</li>
                         <li> High Speed Catamaran to Havelock</li>
                         <li>and many more . . .</li>
                         <li> Call Us For Booking at 9784207077</li>
 
-                    </p>
+                    <p></p>
                     <br>
                     <br>
                     <a href="andman.html" class="details btn btn-info">
@@ -1497,6 +1892,9 @@
 
     </div>
 
+
+
+   
 
 
     <section class="ftco-section testimony-section bg-light">
@@ -1563,7 +1961,58 @@
         </div>
     </section>
 
-
+ <section class="ftco-section services-section bg-light" style="margin-top: -120px;">
+        <div class="container">
+            <h2 class="text-xs-center" style="color: #F85959; text-transform: uppercase; margin-top: ;"> international and domestic travel packages at best price with vip tour.
+            </h2>
+            <div class="row d-flex">
+                <div class="col-md-3 d-flex align-self-stretch ftco-animate">
+                    <div class="media block-6 services d-block text-center">
+                        <div class="d-flex justify-content-center">
+                            <div class="icon"><span class="flaticon-guarantee"></span></div>
+                        </div>
+                        <div class="media-body p-2 mt-2">
+                            <h3 class="heading mb-3">Best Price Guarantee</h3>
+                            <p>"Price is what you pay. Value is what you get."- Warren Buffett</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 d-flex align-self-stretch ftco-animate">
+                    <div class="media block-6 services d-block text-center">
+                        <div class="d-flex justify-content-center">
+                            <div class="icon"><span class="flaticon-like"></span></div>
+                        </div>
+                        <div class="media-body p-2 mt-2">
+                            <h3 class="heading mb-3">Travellers Love Us</h3>
+                            <p>Let's find some beautiful place to get lost.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 d-flex align-self-stretch ftco-animate">
+                    <div class="media block-6 services d-block text-center">
+                        <div class="d-flex justify-content-center">
+                            <div class="icon"><span class="flaticon-detective"></span></div>
+                        </div>
+                        <div class="media-body p-2 mt-2">
+                            <h3 class="heading mb-3">Best Travel Agent</h3>
+                            <p>Always delivered more than expected.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 d-flex align-self-stretch ftco-animate">
+                    <div class="media block-6 services d-block text-center">
+                        <div class="d-flex justify-content-center">
+                            <div class="icon"><span class="flaticon-support"></span></div>
+                        </div>
+                        <div class="media-body p-2 mt-2">
+                            <h3 class="heading mb-3">Our Dedicated Support</h3>
+                            <p>We always ready for you to help, call us anytime at +919784207077.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
 
 
@@ -1581,7 +2030,7 @@
                                 <h6 class="text-uppercase">About</h6>
                             </li>
                             <li class="text-muted">
-                                Vip tour is a specialist tour operator. We focus on creating magical tailor-made journeys that bring travel & places alive and don't scrimp on the smiles. Born in chittorgarh, Rajasthan(India), we've been creating private tailor-made journeys for adventurers and families for the past 5 years.
+                                Vip tour is a specialist tour operator. We focus on creating magical tailor-made journeys that bring travel &amp; places alive and don't scrimp on the smiles. Born in chittorgarh, Rajasthan(India), we've been creating private tailor-made journeys for adventurers and families for the past 5 years.
                             </li>
                         </ul>
                     </div>
@@ -1694,7 +2143,283 @@
                             clickable: true,
                         }
                     });
-                    
+
+                    // when animating on canvas, it is best to use requestAnimationFrame instead of setTimeout or setInterval
+                    // not supported in all browsers though and sometimes needs a prefix, so we need a shim
+                    window.requestAnimFrame = (function() {
+                        return window.requestAnimationFrame ||
+                            window.webkitRequestAnimationFrame ||
+                            window.mozRequestAnimationFrame ||
+                            function(callback) {
+                                window.setTimeout(callback, 1000 / 60);
+                            };
+                    })();
+
+                    // now we will setup our basic variables for the demo
+                    var canvas = document.getElementById('canvas'),
+                        ctx = canvas.getContext('2d'),
+                        // full screen dimensions
+                        cw = window.innerWidth,
+                        ch = window.innerHeight,
+                        // firework collection
+                        fireworks = [],
+                        // particle collection
+                        particles = [],
+                        // starting hue
+                        hue = 120,
+                        // when launching fireworks with a click, too many get launched at once without a limiter, one launch per 5 loop ticks
+                        limiterTotal = 5,
+                        limiterTick = 0,
+                        // this will time the auto launches of fireworks, one launch per 80 loop ticks
+                        timerTotal = 80,
+                        timerTick = 0,
+                        mousedown = false,
+                        // mouse x coordinate,
+                        mx,
+                        // mouse y coordinate
+                        my;
+
+                    // set canvas dimensions
+                    canvas.width = cw;
+                    canvas.height = ch;
+
+                    // now we are going to setup our function placeholders for the entire demo
+
+                    // get a random number within a range
+                    function random(min, max) {
+                        return Math.random() * (max - min) + min;
+                    }
+
+                    // calculate the distance between two points
+                    function calculateDistance(p1x, p1y, p2x, p2y) {
+                        var xDistance = p1x - p2x,
+                            yDistance = p1y - p2y;
+                        return Math.sqrt(Math.pow(xDistance, 2) + Math.pow(yDistance, 2));
+                    }
+
+                    // create firework
+                    function Firework(sx, sy, tx, ty) {
+                        // actual coordinates
+                        this.x = sx;
+                        this.y = sy;
+                        // starting coordinates
+                        this.sx = sx;
+                        this.sy = sy;
+                        // target coordinates
+                        this.tx = tx;
+                        this.ty = ty;
+                        // distance from starting point to target
+                        this.distanceToTarget = calculateDistance(sx, sy, tx, ty);
+                        this.distanceTraveled = 0;
+                        // track the past coordinates of each firework to create a trail effect, increase the coordinate count to create more prominent trails
+                        this.coordinates = [];
+                        this.coordinateCount = 3;
+                        // populate initial coordinate collection with the current coordinates
+                        while (this.coordinateCount--) {
+                            this.coordinates.push([this.x, this.y]);
+                        }
+                        this.angle = Math.atan2(ty - sy, tx - sx);
+                        this.speed = 2;
+                        this.acceleration = 1.05;
+                        this.brightness = random(50, 70);
+                        // circle target indicator radius
+                        this.targetRadius = 1;
+                    }
+
+                    // update firework
+                    Firework.prototype.update = function(index) {
+                        // remove last item in coordinates array
+                        this.coordinates.pop();
+                        // add current coordinates to the start of the array
+                        this.coordinates.unshift([this.x, this.y]);
+
+                        // cycle the circle target indicator radius
+                        if (this.targetRadius < 8) {
+                            this.targetRadius += 0.3;
+                        } else {
+                            this.targetRadius = 1;
+                        }
+
+                        // speed up the firework
+                        this.speed *= this.acceleration;
+
+                        // get the current velocities based on angle and speed
+                        var vx = Math.cos(this.angle) * this.speed,
+                            vy = Math.sin(this.angle) * this.speed;
+                        // how far will the firework have traveled with velocities applied?
+                        this.distanceTraveled = calculateDistance(this.sx, this.sy, this.x + vx, this.y + vy);
+
+                        // if the distance traveled, including velocities, is greater than the initial distance to the target, then the target has been reached
+                        if (this.distanceTraveled >= this.distanceToTarget) {
+                            createParticles(this.tx, this.ty);
+                            // remove the firework, use the index passed into the update function to determine which to remove
+                            fireworks.splice(index, 1);
+                        } else {
+                            // target not reached, keep traveling
+                            this.x += vx;
+                            this.y += vy;
+                        }
+                    }
+
+                    // draw firework
+                    Firework.prototype.draw = function() {
+                        ctx.beginPath();
+                        // move to the last tracked coordinate in the set, then draw a line to the current x and y
+                        ctx.moveTo(this.coordinates[this.coordinates.length - 1][0], this.coordinates[this.coordinates.length - 1][1]);
+                        ctx.lineTo(this.x, this.y);
+                        ctx.strokeStyle = 'hsl(' + hue + ', 100%, ' + this.brightness + '%)';
+                        ctx.stroke();
+
+                        ctx.beginPath();
+                        // draw the target for this firework with a pulsing circle
+                        ctx.arc(this.tx, this.ty, this.targetRadius, 0, Math.PI * 2);
+                        ctx.stroke();
+                    }
+
+                    // create particle
+                    function Particle(x, y) {
+                        this.x = x;
+                        this.y = y;
+                        // track the past coordinates of each particle to create a trail effect, increase the coordinate count to create more prominent trails
+                        this.coordinates = [];
+                        this.coordinateCount = 5;
+                        while (this.coordinateCount--) {
+                            this.coordinates.push([this.x, this.y]);
+                        }
+                        // set a random angle in all possible directions, in radians
+                        this.angle = random(0, Math.PI * 2);
+                        this.speed = random(1, 10);
+                        // friction will slow the particle down
+                        this.friction = 0.95;
+                        // gravity will be applied and pull the particle down
+                        this.gravity = 1;
+                        // set the hue to a random number +-50 of the overall hue variable
+                        this.hue = random(hue - 50, hue + 50);
+                        this.brightness = random(50, 80);
+                        this.alpha = 1;
+                        // set how fast the particle fades out
+                        this.decay = random(0.015, 0.03);
+                    }
+
+                    // update particle
+                    Particle.prototype.update = function(index) {
+                        // remove last item in coordinates array
+                        this.coordinates.pop();
+                        // add current coordinates to the start of the array
+                        this.coordinates.unshift([this.x, this.y]);
+                        // slow down the particle
+                        this.speed *= this.friction;
+                        // apply velocity
+                        this.x += Math.cos(this.angle) * this.speed;
+                        this.y += Math.sin(this.angle) * this.speed + this.gravity;
+                        // fade out the particle
+                        this.alpha -= this.decay;
+
+                        // remove the particle once the alpha is low enough, based on the passed in index
+                        if (this.alpha <= this.decay) {
+                            particles.splice(index, 1);
+                        }
+                    }
+
+                    // draw particle
+                    Particle.prototype.draw = function() {
+                        ctx.beginPath();
+                        // move to the last tracked coordinates in the set, then draw a line to the current x and y
+                        ctx.moveTo(this.coordinates[this.coordinates.length - 1][0], this.coordinates[this.coordinates.length - 1][1]);
+                        ctx.lineTo(this.x, this.y);
+                        ctx.strokeStyle = 'hsla(' + this.hue + ', 100%, ' + this.brightness + '%, ' + this.alpha + ')';
+                        ctx.stroke();
+                    }
+
+                    // create particle group/explosion
+                    function createParticles(x, y) {
+                        // increase the particle count for a bigger explosion, beware of the canvas performance hit with the increased particles though
+                        var particleCount = 30;
+                        while (particleCount--) {
+                            particles.push(new Particle(x, y));
+                        }
+                    }
+
+                    // main demo loop
+                    function loop() {
+                        // this function will run endlessly with requestAnimationFrame
+                        requestAnimFrame(loop);
+
+                        // increase the hue to get different colored fireworks over time
+                        //hue += 0.5;
+
+                        // create random color
+                        hue = random(0, 360);
+
+                        // normally, clearRect() would be used to clear the canvas
+                        // we want to create a trailing effect though
+                        // setting the composite operation to destination-out will allow us to clear the canvas at a specific opacity, rather than wiping it entirely
+                        ctx.globalCompositeOperation = 'destination-out';
+                        // decrease the alpha property to create more prominent trails
+                        ctx.fillStyle = 'rgba(0, 0, 0, 0.5)';
+                        ctx.fillRect(0, 0, cw, ch);
+                        // change the composite operation back to our main mode
+                        // lighter creates bright highlight points as the fireworks and particles overlap each other
+                        ctx.globalCompositeOperation = 'lighter';
+
+                        // loop over each firework, draw it, update it
+                        var i = fireworks.length;
+                        while (i--) {
+                            fireworks[i].draw();
+                            fireworks[i].update(i);
+                        }
+
+                        // loop over each particle, draw it, update it
+                        var i = particles.length;
+                        while (i--) {
+                            particles[i].draw();
+                            particles[i].update(i);
+                        }
+
+                        // launch fireworks automatically to random coordinates, when the mouse isn't down
+                        if (timerTick >= timerTotal) {
+                            if (!mousedown) {
+                                // start the firework at the bottom middle of the screen, then set the random target coordinates, the random y coordinates will be set within the range of the top half of the screen
+                                fireworks.push(new Firework(cw / 2, ch, random(0, cw), random(0, ch / 2)));
+                                timerTick = 0;
+                            }
+                        } else {
+                            timerTick++;
+                        }
+
+                        // limit the rate at which fireworks get launched when mouse is down
+                        if (limiterTick >= limiterTotal) {
+                            if (mousedown) {
+                                // start the firework at the bottom middle of the screen, then set the current mouse coordinates as the target
+                                fireworks.push(new Firework(cw / 2, ch, mx, my));
+                                limiterTick = 0;
+                            }
+                        } else {
+                            limiterTick++;
+                        }
+                    }
+
+                    // mouse event bindings
+                    // update the mouse coordinates on mousemove
+                    canvas.addEventListener('mousemove', function(e) {
+                        mx = e.pageX - canvas.offsetLeft;
+                        my = e.pageY - canvas.offsetTop;
+                    });
+
+                    // toggle mousedown state and prevent canvas from being selected
+                    canvas.addEventListener('mousedown', function(e) {
+                        e.preventDefault();
+                        mousedown = true;
+                    });
+
+                    canvas.addEventListener('mouseup', function(e) {
+                        e.preventDefault();
+                        mousedown = false;
+                    });
+
+                    // once the window loads, we are ready for some fireworks!
+                    window.onload = loop;
+
                 </script>
 
 
@@ -1703,17 +2428,17 @@
         </div>
 
 
-        <div class="block block-inverse block-secondary app-code-block" style="margin-top:-173px;">
-            <a name="about">
-                <div class="container">
-                    <div class="row app-align-center">
-                        <div class="col-md-5 push-md-7">
+        </a><div class="block block-inverse block-secondary app-code-block" style="margin-top:-173px;"><a name="contact">
+            </a><a name="about">
+                </a><div class="container"><a name="about">
+                    </a><div class="row app-align-center"><a name="about">
+                        </a><div class="col-md-5 push-md-7"><a name="about">
 
 
                             <h1>Go to the best tour of your life with VIP!! </h1>
                             <h5> Join our Whatsapp group for regular updates and offers on tour packages.</h5>
                             <br>
-                            <a href="https://chat.whatsapp.com/JLWYfkoMLGXKHUyxZ8Gm6B"><button class="btn btn-secondary btn-lg btn-borderless">
+                            </a><a href="https://chat.whatsapp.com/JLWYfkoMLGXKHUyxZ8Gm6B"><button class="btn btn-secondary btn-lg btn-borderless">
                                     Join now
                                 </button></a>
 
@@ -1732,7 +2457,7 @@
                         </div>
                     </div>
                 </div>
-            </a>
+            
         </div>
 
 
@@ -1783,15 +2508,15 @@
 
         </div>
 
-    </a>
+    
 
     <div class="col-md-12 text-center">
 
         <p>
-            Copyright &copy;<script>
+            Copyright ©<script>
                 document.write(new Date().getFullYear());
 
-            </script> All rights reserved | This Website is made with <i class="flaticon-like" aria-hidden="true"></i> by <a href="https://www.linkedin.com/in/pranjal-soni-064519172/" target="_blank">pranjal soni</a>
+            </script>2020 All rights reserved | This Website is made with <i class="flaticon-like" aria-hidden="true"></i> by <a href="https://www.linkedin.com/in/pranjal-soni-064519172/" target="_blank">pranjal soni</a>
         </p>
     </div>
 
@@ -1805,6 +2530,10 @@
 
 
 
-</body>
 
-</html>
+
+
+
+
+
+<div class="ue-sidebar-container"></div></body></html>
